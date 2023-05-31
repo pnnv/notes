@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "332f0e1464a9b79c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1720182b01272d3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbcaa416647aa61e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Roppers/Bash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ad304df7142aa17e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d12697620aaefbb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58051e56f5dc6e1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "51d46d1527e090f2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "xxd",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "245f4136bbc9093d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4407c66c543aa6aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "63f836fa1af92ce4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7b4d6fd8974996e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Roppers/Bash.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c21a4827a9264534",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Roppers/Bash.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b15a82663c2e89a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a85a48c19aba0c5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Roppers/Bash.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fbcaa416647aa61e",
+  "lastOpenFiles": [
+    "Roppers/Hex.md",
+    "Roppers/Bash.md",
+    "Roppers/Linux Processes.md",
+    "Pasted image 20230528233845.png",
+    "xxd.md",
+    "Roppers/Resizing Disk.md",
+    "Roppers/Passwords and Hashing.md",
+    "Roppers/Machine Code and Assembly.md",
+    "Roppers/Linux User Managament.md",
+    "Roppers/Filesystems & Drive Layout.md",
+    "Roppers/Filesystem Hierarchy.md",
+    "Linux Unhatched/Grep.md",
+    "Roppers/Linux Permissions.md",
+    "Linux Unhatched/Linux Unhatched.md",
+    "Roppers/Metadata.md",
+    "Roppers/File Recovery.md",
+    "Roppers/diff.md",
+    "Roppers/Find.md",
+    "Roppers/Fetch, Decode, Execute.md",
+    "[.md",
+    "Roppers/Base64.md",
+    "Roppers/Hardware.md",
+    "Roppers/Assignment.md",
+    "Linux Unhatched/Network Configuration.md",
+    "Untitled.md",
+    "Linux Unhatched/Redirection.md",
+    "Roppers",
+    "Linux Unhatched/Viewing Processes.md",
+    "Linux Unhatched"
+  ]
+}
