@@ -1,0 +1,14 @@
+- General Skills
+	- Scripting
+	- Operating System Specific
+	- System Administration
+- Cryptography
+- Forensics
+	- File
+	- Filesystem
+	- Memory
+	- Network
+- Web Exploitation
+- Uncategorized / Miscellaneous
+- Reverse Engineering
+- Binary Exploitation

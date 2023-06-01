@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roppers/Bash.md",
+                "file": "ctf/Encryption and Cryptography.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 225.5,
     "collapsed": true
   },
   "right": {
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Roppers/Bash.md",
+                "file": "ctf/Encryption and Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Roppers/Bash.md",
+                "file": "ctf/Encryption and Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roppers/Bash.md"
+                "file": "ctf/Encryption and Cryptography.md"
               }
             }
           }
@@ -150,8 +150,14 @@
   },
   "active": "fbcaa416647aa61e",
   "lastOpenFiles": [
-    "Roppers/Hex.md",
+    "ctf/Getting Started.md",
+    "ctf/Encryption and Cryptography.md",
+    "ctf/Topics.md",
+    "Roppers/Bash Scripts.md",
+    "ctf",
+    "Linux Unhatched/Vim.md",
     "Roppers/Bash.md",
+    "Roppers/Hex.md",
     "Roppers/Linux Processes.md",
     "Pasted image 20230528233845.png",
     "xxd.md",
@@ -172,12 +178,7 @@
     "[.md",
     "Roppers/Base64.md",
     "Roppers/Hardware.md",
-    "Roppers/Assignment.md",
-    "Linux Unhatched/Network Configuration.md",
-    "Untitled.md",
-    "Linux Unhatched/Redirection.md",
     "Roppers",
-    "Linux Unhatched/Viewing Processes.md",
     "Linux Unhatched"
   ]
 }
