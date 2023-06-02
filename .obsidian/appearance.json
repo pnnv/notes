@@ -4,6 +4,7 @@
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "JetBrainsMono Nerd Font",
   "baseFontSize": 18,
-  "monospaceFontFamily": "JetBrains Mono",
-  "nativeMenus": false
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "nativeMenus": false,
+  "theme": "obsidian"
 }

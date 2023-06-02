@@ -107,3 +107,6 @@ XOR is a cheap way to encrypt data with a password. Any data can be encrypted us
 
 **Exploiting XOR Encryption**:
 
+- Single Byte XOR Encryption is trivial to bruteforce as there are only 255 key combinations to try.
+- Multibyte XOR gets exponentially harder the longer the key, but if encrypted text is long enough, character frequency method is a viable method to find the key.
+	- Character frequency analysis means that we split the cipher text into groups based on the number of characters in the key. These groups then are bruteforced using the idea that some letters appear more frequently in the english alphabet than the others.
