@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1720182b01272d3d",
+        "id": "2026ffe519488f4a",
         "type": "tabs",
         "children": [
           {
-            "id": "fbcaa416647aa61e",
+            "id": "1991ee982374ed12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ctf/Corrupt Transmission 50.md",
+                "file": "ctf/Steganography.md",
                 "mode": "preview",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ctf/Corrupt Transmission 50.md",
+                "file": "ctf/Steganography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ctf/Corrupt Transmission 50.md",
+                "file": "ctf/Steganography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ctf/Corrupt Transmission 50.md"
+                "file": "ctf/Steganography.md"
               }
             }
           }
@@ -148,13 +148,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbcaa416647aa61e",
+  "active": "1991ee982374ed12",
   "lastOpenFiles": [
-    "Roppers/Hex.md",
+    "().md",
+    "ctf/Steganography.md",
+    "ctf/Topics.md",
+    "ctf/Zooooooom.md",
     "ctf/Corrupt Transmission 50.md",
+    "Roppers/Hex.md",
     "ctf/File Forensics.md",
     "ctf/Getting Started.md",
-    "ctf/Topics.md",
     "Roppers/Hardware.md",
     "Roppers/Find.md",
     "ctf/Encryption and Cryptography.md",
@@ -176,9 +179,6 @@
     "Roppers/Linux Permissions.md",
     "Linux Unhatched/Linux Unhatched.md",
     "Roppers/Metadata.md",
-    "Roppers/File Recovery.md",
-    "Roppers/diff.md",
-    "Roppers/Fetch, Decode, Execute.md",
     "Roppers",
     "Linux Unhatched"
   ]
