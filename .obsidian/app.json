@@ -12,5 +12,6 @@
     "en-GB",
     "en-US"
   ],
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "attachmentFolderPath": "netsec/Attachments"
 }

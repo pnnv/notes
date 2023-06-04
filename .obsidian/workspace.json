@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2026ffe519488f4a",
+        "id": "92528e4236f3d4fc",
         "type": "tabs",
         "children": [
           {
-            "id": "1991ee982374ed12",
+            "id": "f3a8720ab7573eda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ctf/Steganography.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -145,18 +146,28 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1991ee982374ed12",
+  "active": "f3a8720ab7573eda",
   "lastOpenFiles": [
+    "ctf/File Carving.md",
+    "ctf/File Forensics.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "ctf/Untitled Kanban.md",
+    "netsec/Untitled.canvas",
+    "Attachments",
+    "Untitled",
+    "netsec",
+    "netsec/ctf/Untitled.canvas",
+    "`",
     "().md",
     "ctf/Steganography.md",
     "ctf/Topics.md",
-    "ctf/Zooooooom.md",
     "ctf/Corrupt Transmission 50.md",
     "Roppers/Hex.md",
-    "ctf/File Forensics.md",
     "ctf/Getting Started.md",
     "Roppers/Hardware.md",
     "Roppers/Find.md",
@@ -176,9 +187,6 @@
     "Roppers/Filesystems & Drive Layout.md",
     "Roppers/Filesystem Hierarchy.md",
     "Linux Unhatched/Grep.md",
-    "Roppers/Linux Permissions.md",
-    "Linux Unhatched/Linux Unhatched.md",
-    "Roppers/Metadata.md",
     "Roppers",
     "Linux Unhatched"
   ]
