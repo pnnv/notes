@@ -21,6 +21,7 @@ In this scenario, Alice encrypts her message with her private key. Bob decrypts 
 When we combine these two methods into one, we get **Confidential and Authenticated Communications**.
 
 ### RSA Encryption
+- more about RSA in [[RSA]].
 (Rivest, Shamir & Adleman Encryption)
 - General: The RSA encryption scheme provides commutative, asymmetric encryption.
 - Math Description: The public key consists of two large integers (e, n) and the private key consists of two large integers (d, n). *Note that the second number n is the same in both!* The three numbers e, d and n are related in a special way, which requires a bit more mathematics to go into.
