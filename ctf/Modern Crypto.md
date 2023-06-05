@@ -3,7 +3,7 @@
 It is a type of encryption where same key is used for both encryption and decryption process. In other words, sender and receiver have the same key which they use to encrypt and decrypt the message.
 
 #### Asymmetric encryption:
-Also called Public-Key encryption. It allows us to estabilish secure communications even we have no opportunity to agree on a secret key ahead of time or via another communication channel. This is crucial for secure transactions over the internet. 
+Also called Public-Key encryption. It allows us to establish secure communications even we have no opportunity to agree on a secret key ahead of time or via another communication channel. This is crucial for secure transactions over the internet. 
 
 - The magic of public key cryptography derives from three important points:
 	- A message may be encrypted with a private key and then decrypted with the corresponding(paired) public key, OR it can be encrypted with a public key and then decrypted with the corresponding private key.
@@ -34,3 +34,32 @@ When we combine these two methods into one, we get **Confidential and Authentica
 #### CAC knows crypto
 > CAC stands for Certificate Authority Certificate. It is a third party organization responsible for issuing digital that are responsible for verifying authenticity and integrity of the public key and its associated identity.
 
+CAC supports a number of different cryptographic algorithms, including:
+Hashing: **SHA-512**
+Symmetric encryption: **AES-256**
+Asymmetric Encryption: **RSA-2048**
+... and others.
+
+Included on out CAC are public/private key pairs that we can use to decrypt e-mails intended only for us, and to digitally sign documents.
+
+- **Just increase the key size:** RSA has been used since 1970 because as the computers get faster, we can simply use a bigger (and therefore harder to factor) numbers for moduli in our RSA keys.
+- **N-bit RSA** means 'n' bits is the modulus size. Decades ago we used to have 512-bit RSA keys which were deemed pretty secure, since then the computing powers have increased by a thousand-fold and today we use 2048-bit RSA key which are considered pretty secure.
+
+#### Digital Signatures Introduction
+
+- **The signature:** Alice does the following 
+	- Computes the hash of the contract agreement
+	- Alice encrypts that hash with the private key
+	- sends the result (which is the "digital signature"), along with the contract (which itself needs not be encrypted), to the Bob.
+- **The Check:** Anyone can take the contract, hash it, and compare the result with what you get when you decrypt the digital signature with Alice's public key. If it matches then the contract must be exactly the same as the Alice sent, because :
+	- Alice must've sent it, because only Alice can encrypt something that decrypts properly with her public key.
+	- The contract can't have been modified, because the hash value would've changed
+
+
+#### Man-in-the-Middle Attack Introduction
+
+- **The Problem:** Asymmetric encryption is almost magical because --- you create security out of insecurity. However, there is still one weakness that's fundamental: *certifying the connection between a public key and its associated identity.*
+- Example:
+	- Hi, I'm Bob and my public key is
+	`(106d231ecc13338084a1b857bb82a20b,a265d9387a8a395527c98eeb024806dd)`
+How do we know that the public key really belongs to the guy you know as "Bob"? While we can be sure that the message can only be decrypted by the one who has the corresponding private key the weakness is the fact that we have to *trust* the source through which we are getting the public key.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ctf/Modern Crypto.md",
+                "file": "ctf/Encryption and Cryptography.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xxd",
+                "query": "XOR",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -88,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ctf/Modern Crypto.md",
+                "file": "ctf/Encryption and Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ctf/Modern Crypto.md",
+                "file": "ctf/Encryption and Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ctf/Modern Crypto.md"
+                "file": "ctf/Encryption and Cryptography.md"
               }
             }
           }
@@ -152,8 +153,9 @@
   },
   "active": "f3a8720ab7573eda",
   "lastOpenFiles": [
-    "ctf/File Carving.md",
+    "ctf/Untitled.md",
     "ctf/Modern Crypto.md",
+    "ctf/File Carving.md",
     "ctf/File Metadata.md",
     "Pasted image 20230605050803.png",
     "ctf/Steganography.md",
@@ -187,7 +189,6 @@
     "Roppers/Passwords and Hashing.md",
     "Roppers/Machine Code and Assembly.md",
     "Roppers/Linux User Managament.md",
-    "Roppers/Filesystems & Drive Layout.md",
     "Roppers",
     "Linux Unhatched"
   ]
