@@ -18,7 +18,7 @@ In this scenario, Alice encrypts the message with Bob's public key which then Bo
 **Authenticated Communications:**
 In this scenario, Alice encrypts her message with her private key. Bob decrypts the message with Alice' public key and therefore Bob can be sure about the sender of the message.
 
-When we combine these two methods into one, we get **Confidential and Authenticated Communications**.ts 
+When we combine these two methods into one, we get **Confidential and Authenticated Communications**.
 
 ### RSA Encryption
 (Rivest, Shamir & Adleman Encryption)
@@ -29,4 +29,8 @@ When we combine these two methods into one, we get **Confidential and Authentica
 	- Today RSA might use 4096-bit number for n. Nobody currently knows how to factor the numbers of that size quickly, which is to say that RSA is pretty secure.
 
 #### The security of RSA
-- **Finding prime factors of the modulus.** It is always *possible* to crack RSA by computing someone's private key from their public key. All it takes is being able to factor the modulus (the number n that's common to both public and private key) into its two prime factors. However, if the modulus is big enough, even though it will be *possible* to do the factorization
+- **Finding prime factors of the modulus.** It is always *possible* to crack RSA by computing someone's private key from their public key. All it takes is being able to factor the modulus (the number n that's common to both public and private key) into its two prime factors. However, if the modulus is big enough, even though it will be *possible* to do the factorization, it will not be *feasible*-- meaning the time/ computing-power required to do it is simply too great.
+
+#### CAC knows crypto
+> CAC stands for Certificate Authority Certificate. It is a third party organization responsible for issuing digital that are responsible for verifying authenticity and integrity of the public key and its associated identity.
+
