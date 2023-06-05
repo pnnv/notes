@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ctf/Steganography.md",
+                "file": "ctf/Modern Crypto.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ctf/Steganography.md",
+                "file": "ctf/Modern Crypto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ctf/Steganography.md",
+                "file": "ctf/Modern Crypto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ctf/Steganography.md"
+                "file": "ctf/Modern Crypto.md"
               }
             }
           }
@@ -153,6 +153,10 @@
   "active": "f3a8720ab7573eda",
   "lastOpenFiles": [
     "ctf/File Carving.md",
+    "ctf/Modern Crypto.md",
+    "ctf/File Metadata.md",
+    "Pasted image 20230605050803.png",
+    "ctf/Steganography.md",
     "ctf/File Forensics.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -164,7 +168,6 @@
     "netsec/ctf/Untitled.canvas",
     "`",
     "().md",
-    "ctf/Steganography.md",
     "ctf/Topics.md",
     "ctf/Corrupt Transmission 50.md",
     "Roppers/Hex.md",
@@ -185,8 +188,6 @@
     "Roppers/Machine Code and Assembly.md",
     "Roppers/Linux User Managament.md",
     "Roppers/Filesystems & Drive Layout.md",
-    "Roppers/Filesystem Hierarchy.md",
-    "Linux Unhatched/Grep.md",
     "Roppers",
     "Linux Unhatched"
   ]
