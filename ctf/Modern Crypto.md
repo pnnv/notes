@@ -1,4 +1,6 @@
 ### Modern Cryptography
+To get really good at crypto --> [this](https://www.hoppersroppers.org/roadmap/training/crypto.html)
+
 #### Symmetric Encryption:
 It is a type of encryption where same key is used for both encryption and decryption process. In other words, sender and receiver have the same key which they use to encrypt and decrypt the message.
 

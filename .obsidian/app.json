@@ -8,10 +8,10 @@
     "downscalePercent": 100
   },
   "promptDelete": false,
-  "spellcheckLanguages": [
-    "en-GB",
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "showIndentGuide": false,
-  "attachmentFolderPath": "netsec/Attachments"
+  "attachmentFolderPath": "netsec/Attachments",
+  "showFrontmatter": true,
+  "showLineNumber": false,
+  "rightToLeft": false
 }
