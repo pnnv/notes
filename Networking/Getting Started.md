@@ -26,4 +26,10 @@ Encapsulation is the process of wrapping a piece of data in the routing informat
 - **WAN:** WAN stands for "wide area network". It means a network that is much more extensive than LAN. While WAN is the relevant term to use to describe large, dispersed networks in general, It is usually meant to mean the internet, as a whole.
 - **Protocol:** A protocol is a set of rules and standards that define a language that devices can use to communicate. There are a great number of protocols in use extensively in the networking, and they are often implemented in different layers.
   
-  Some low level protocols are TCP, UDP, IP and ICMP. Some familiar examples of applications of application layer protocols 
+  Some low level protocols are TCP, UDP, IP and ICMP. Some familiar examples of applications of application layer protocols, built on those lower protocols, are HTTP (for accessing web content), SSH, and TLS/SSL.
+
+- **Port:** A port is an address on a single machine that can be tied to a specific piece of software. It is not a physical interface or location, but it allows your server to be able to communicate using more than one application.
+- **Firewall**: A firewall is a program that decides whether traffic coming or going from a server should be allowed. A firewall usually works by creating rules for which type of traffic is acceptable on which ports. Generally, firewalls block ports that are not used by a specific application on a server.
+- **NAT**: NAT stands for network address translation. It is a way to repackage and send incoming requests to a routing server to the relevant devices or  as a way to route requests through one IP address to the necessary backend servers.
+- **VPN:** It is a means of connecting separate LANs through the internet, while maintaining privacy. This is used to connect remote systems as if they were on a local network, often for security reasons.
+
