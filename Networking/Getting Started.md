@@ -46,10 +46,20 @@ As data is sent out of one machine, it begins at the top of the stack and filter
 Each layer has the ability to add its own “wrapper” around the data that it receives from the adjacent layer, which will help the layers that come after decide what to do with the data when it is handed off.
 
 #### TCP/IP Model
-
 The TCP/IP model, more commonly known as the *internet protocol suite* is a widely adopted layering model. It defines the four separate layers:
 
 - **Application**: This layer is responsible for creating and transmitting user data between applications. The applications can be on remote systems, and should appear to operate as if locally to the end user. This communication is said to take place between **peers**.
 - **Transport**: The transport layer is responsible for communication between processes. This level of networking utilises ports to address different devices.
 - **Internet**: The internet layer is used to transmit data node to node in a network. This layer is aware of the endpoints of the connections, but is not concerned with the actual connection needed to get from one place to another. **IP** **addresses** are defined in this layer as a way of reaching remote systems in an addressable manner.
-- **Link**: The link layer implements the actual topology of the local network that allows the
+- **Link**: The link layer implements the actual topology of the local network that allows the internet layer to present an addressable interface. It establishes connections between neighbouring nodes to send data.
+
+#### Interfaces
+Interfaces are networking communication points for your computer. Each interface is associated with a physical or virtual networking device.
+
+Typically, your server will have one configurable network interface for each Ethernet or wireless internet card you have.
+
+In addition, it will define a virtual network interface called the “loopback” or localhost interface. This is used as an interface to connect applications and processes on a single computer to other applications and processes. You can see this referenced as the “lo” interface in many tools.
+
+Many times, administrators configure one interface to service traffic to the internet and another interface for a LAN or private network.
+
+In datacenters with private networking enabled, your VPS will have two networking interfaces. The "*eth0*" interface will be configured to handle traffic from the internet, while the "*eth1*" interface will operate to communicate with a private network.
