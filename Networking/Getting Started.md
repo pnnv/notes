@@ -111,4 +111,10 @@ Because it is a straightforward transaction, it is useful for communications lik
 #### HTTP
 HTTP stands for hypertext transfer protocol. It is a protocol defined in the application layer that forms the basis for the communication on the web.
 
-HTTP defines a 
+HTTP defines a number of verbs that tell the remote system what you are requesting. For instance, GET, POST, and DELETE all interact with the requested data in a different way. To see an example of the different HTTP requests refer to [this](https://www.digitalocean.com/community/tutorials/nodejs-express-routing).
+
+#### SSH
+(secure shell)
+It is an encrypted protocol implemented in the application layer that can be used to communicate with a remote server in a secure way. Many additional technologies are built around this protocol because of its end-to-end encryption and ubiquity.
+
+There are many other protocols as well.
