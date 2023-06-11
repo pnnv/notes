@@ -88,6 +88,12 @@ Ususlly ICMP packets are transmitted when a different kind of packet encounters 
 
 #### TCP
 (transmission control protocol).
-It is implemented in the transport layer of the TCP/IP model and is used to estabilish reliable connections.
+It is implemented in the transport layer of the TCP/IP model and is used to establish reliable connections.
 
-TCP is one of the protocols that encapsulates data into packets. It then transfers these to the remote
+TCP is one of the protocols that encapsulates data into packets. It then transfers these to the remote end of the connection using the methods available on the lower layers. On the other end, it can check for errors, request certain pieces to be resent, and reassemble the information into one logical piece to send to the application layer.
+
+The protocol builds up a connection prior to data transfer using a system called a three-way handshake. This is a way for the two ends of the communication to acknowledge the request and agree upon a method of ensuring data reliability.
+
+After the data has been sent, the connection is torn down using a similar four-way handshake.
+
+TCP is the protocol of choice for many of the most popular uses for the internet, including WWW, SSH, and email.
