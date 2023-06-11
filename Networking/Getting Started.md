@@ -71,3 +71,23 @@ Networking works by piggybacking a number of different protocols on top of each 
 Medium access control is a communications protocol that is used to distinguish specific devices. Each device is supposed to get a unique, hardcoded **media access control address** (MAC Address) when it is manufactured that differentiates it from every other device on the internet.
 
 Addressing hardware by the MAC address allows you to reference a device by a unique value even when the software on top may change the name for that specific device during operation.
+
+MAC addressing is one of the only protocols from the low-level link layer that you are likely to interact with on a regular basis.
+
+#### IP
+The IP protocol is one of the fundamental protocols that allow the internet to work. IP addresses are unique on each network and they allow machines to address each other across a network. It is implemented on the internet layer in the TCP/IP model.
+
+Networks can be linked together, but traffic must be routed when crossing network boundaries. This protocol assumes an unreliable network and multiple paths to the same destination that it can dynamically change between.
+
+There are a number of different implementations of the protocol. The most common implementation today is IPv4 addresses, which follow the pattern `123.123.123.123`, although IPv6 addresses, which follows the pattern `2001:0db8:0000:0000:0000:ff00:0042:8329`, are growing in popularity due to the limited number of available IPv4 addresses.
+
+#### ICMP
+ICMP stands for **internet control message protocol**. It is used to send messages between devices to indicate their availability or error conditions. These packets are used in a variety of network diagnostic tools, such as `ping`  and `traceroute`.
+
+Ususlly ICMP packets are transmitted when a different kind of packet encounters a problem. They are used as a feedback mechanism for network communications.
+
+#### TCP
+(transmission control protocol).
+It is implemented in the transport layer of the TCP/IP model and is used to estabilish reliable connections.
+
+TCP is one of the protocols that encapsulates data into packets. It then transfers these to the remote
