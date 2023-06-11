@@ -63,3 +63,11 @@ In addition, it will define a virtual network interface called the â€œloopbackâ€
 Many times, administrators configure one interface to service traffic to the internet and another interface for a LAN or private network.
 
 In datacenters with private networking enabled, your VPS will have two networking interfaces. The "*eth0*" interface will be configured to handle traffic from the internet, while the "*eth1*" interface will operate to communicate with a private network.
+
+#### Protocols
+Networking works by piggybacking a number of different protocols on top of each other. In this way, one piece of data can be transmitted using multiple protocols encapsulated within one another.
+
+#### Medium Access Control
+Medium access control is a communications protocol that is used to distinguish specific devices. Each device is supposed to get a unique, hardcoded **media access control address** (MAC Address) when it is manufactured that differentiates it from every other device on the internet.
+
+Addressing hardware by the MAC address allows you to reference a device by a unique value even when the software on top may change the name for that specific device during operation.
