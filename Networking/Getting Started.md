@@ -97,3 +97,18 @@ The protocol builds up a connection prior to data transfer using a system called
 After the data has been sent, the connection is torn down using a similar four-way handshake.
 
 TCP is the protocol of choice for many of the most popular uses for the internet, including WWW, SSH, and email.
+
+#### UDP
+(user datagram protocol)
+It is a popular companion protocol to TCP and is also implemented in the transport layer.
+
+The fundamental difference between UDP and TCP is that UDP offers an unreliable data transfer. It does not verify that data has been received on the other end of the connection. This might sound like a bad thing, and for many purposes it is. However, it is also extremely important for some functions.
+
+Because it is not required to wait for the confirmation that the data was received and forced to resend the data, UDP is much faster than TCP. It does not establish a connection with the remote host, it just sends data without confirmation.
+
+Because it is a straightforward transaction, it is useful for communications like querying for network resources. It also doesn't maintain a state, which makes it great for transmitting data from one machine to many real-time clients. This makes it ideal for VIOP, games, and other applications that cannot afford delays.
+
+#### HTTP
+HTTP stands for hypertext transfer protocol. It is a protocol defined in the application layer that forms the basis for the communication on the web.
+
+HTTP defines a 
