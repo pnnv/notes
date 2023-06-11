@@ -32,3 +32,24 @@ Encapsulation is the process of wrapping a piece of data in the routing informat
 - **Firewall**: A firewall is a program that decides whether traffic coming or going from a server should be allowed. A firewall usually works by creating rules for which type of traffic is acceptable on which ports. Generally, firewalls block ports that are not used by a specific application on a server.
 - **NAT**: NAT stands for network address translation. It is a way to repackage and send incoming requests to a routing server to the relevant devices or  as a way to route requests through one IP address to the necessary backend servers.
 - **VPN:** It is a means of connecting separate LANs through the internet, while maintaining privacy. This is used to connect remote systems as if they were on a local network, often for security reasons.
+#### Network Layers
+While networking is often discussed in terms of topology in a horizontal way, between hosts, its implementation is layered in a vertical fashion within any given computer or network.
+
+What this means is that there are multiple technologies and protocols that are built on top of each other in order for communication to function. Each successive, higher layer abstracts the raw data a little bit more.
+
+It also allows you to leverage lower layers in new ways without having to invest the time and energy to develop the protocols and applications that handle those types of traffic.
+
+The language that we use to talk about each of the layering schemes varies significantly depending on which model you use. Regardless of the model used to discuss the layers, the path of data is the same.
+
+As data is sent out of one machine, it begins at the top of the stack and filters downwards. At the lowest level, actual transmission to another machine takes place. At this point, the data travels back up through the layers of the other computer.
+
+Each layer has the ability to add its own “wrapper” around the data that it receives from the adjacent layer, which will help the layers that come after decide what to do with the data when it is handed off.
+
+#### TCP/IP Model
+
+The TCP/IP model, more commonly known as the *internet protocol suite* is a widely adopted layering model. It defines the four separate layers:
+
+- **Application**: This layer is responsible for creating and transmitting user data between applications. The applications can be on remote systems, and should appear to operate as if locally to the end user. This communication is said to take place between **peers**.
+- **Transport**: The transport layer is responsible for communication between processes. This level of networking utilises ports to address different devices.
+- **Internet**: The internet layer is used to transmit data node to node in a network. This layer is aware of the endpoints of the connections, but is not concerned with the actual connection needed to get from one place to another. **IP** **addresses** are defined in this layer as a way of reaching remote systems in an addressable manner.
+- **Link**: The link layer implements the actual topology of the local network that allows the
