@@ -118,3 +118,7 @@ HTTP defines a number of verbs that tell the remote system what you are requesti
 It is an encrypted protocol implemented in the application layer that can be used to communicate with a remote server in a secure way. Many additional technologies are built around this protocol because of its end-to-end encryption and ubiquity.
 
 There are many other protocols as well.
+
+
+### Routers
+A Router is a networking device that forwards data packets between computer network. 
