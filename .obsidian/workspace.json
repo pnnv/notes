@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Getting Started.md",
+                "file": "Networking/Routing Tables.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Getting Started.md",
+                "file": "Networking/Routing Tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Getting Started.md",
+                "file": "Networking/Routing Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Getting Started.md"
+                "file": "Networking/Routing Tables.md"
               }
             }
           },
@@ -163,11 +163,12 @@
   },
   "active": "83636bb485578b67",
   "lastOpenFiles": [
+    "Networking/Getting Started.md",
+    "Networking/Routing Tables.md",
     "ctf/Modern Crypto.md",
     "ctf/File Carving.md",
     "ctf/Encryption and Cryptography.md",
     "ctf/Corrupt Transmission 50.md",
-    "Networking/Getting Started.md",
     "Linux Fundamentals/File Recovery.md",
     "Linux Fundamentals/Hardware.md",
     "pages/contents.md",
@@ -197,7 +198,6 @@
     "ctf/RSA.md",
     "ctf/Steganography.md",
     "ctf/Topics.md",
-    "ctf/File Metadata.md",
     "Pasted image 20230605050803.png",
     "netsec/Untitled.canvas",
     "Attachments",
