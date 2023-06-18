@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -161,7 +160,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "83636bb485578b67",
+  "active": "58051e56f5dc6e1d",
   "lastOpenFiles": [
     "Networking/Getting Started.md",
     "Networking/Routing Tables.md",
