@@ -6,3 +6,31 @@
 
 #### Routing Table
 A routing table is a set of rules, often viewed in table format, that is used to determine where data packets travelling over an Internet Protocol (IP) network will be directed. All IP-enabled devices, including routers and switches, use  routing tables.
+
+```
+netstat -rn
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         172.16.132.1    0.0.0.0         UG        0 0          0 enp6s0
+172.16.132.0    0.0.0.0         255.255.255.0   U         0 0          0 enp6s0
+```
+
+- The entry corresponding to the *default* gateway configuration is a network destination of `0.0.0.0` with a network mask (netmask) of  `0.0.0.0` . The Subent Mask of default route is always  `0.0.0.0`.
+
+Each entry of the routing table consists of the following entries:
+
+1. **Network ID**: The network ID or destination corresponding to the route.
+2. **Subnet Mask**: The mask that is used to match a destination IP address to the network ID.
+3. **Next Hop**: The IP address to which the packet is forwarded.
+4. **Outgoing Interface**: Outgoing Interface the packet should go out to reach the destination network
+5. **Metric**: A common use of the metric is to indicate the *minimum number of hops* (routers crossed) to the network ID.
+
+Routing table entries can be used to store the following types of routes:
+
+- Directly Attached Network IDs
+- Remote Network IDs
+- Host Routes
+- Default Route
+- Destination
+
+- These routing tables can be maintained manually or dynamically. In dynamic routing 
