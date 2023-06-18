@@ -33,6 +33,4 @@ Routing table entries can be used to store the following types of routes:
 - Default Route
 - Destination
 
-# Penis
-
-- These routing tables can be maintained manually or dynamically. In dynamic routing 
+- These routing tables can be maintained manually or dynamically. In dynamic routing, devices build and maintain their routing tables automatically by using routing protocols to exchange information about the surrounding network topology
