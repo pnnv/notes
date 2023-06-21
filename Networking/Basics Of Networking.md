@@ -13,4 +13,11 @@ $ traceroute google.com
 This shows a printout of all the hosts we are hopping across, starting with our gateway router and ending with google.com server. This family of commands is useful for troubleshooting networking problems.
 
 Our local IP address is completely different from our public IP this is because of something called **NAT** or Network Address Translation which is a method of mapping one IP address to another by modifying packets while they are in transit.
-- In simple terms, our local IP is stored by some NAT server 
+- In simple terms, our local IP is stored by some NAT server which ensures that any responses to traffic from us that leave our network, come back to out locally assigned IP. On the other hand, nobody should be able to connect into a box behind NAT because they will not know the local IP address and either way, a local address shouldn't be routed across the internet.
+- Basically, NAT allows connections out and responses back, but does not allow connections in.
+
+#### VM Networking
+Virtualisation software gives an option to switch your VM between a NAT'd IP address and a Bridged IP address.
+
+- Bridged IP addresses are IP addresses assigned by your local router, which will be NAT'd by the router when you try to connect out. NAT'd IP addresses are IP addresses assigned by out virtualisation software, which puts that box behind a NAT.
+- This means that if we are NAT'd, other computers can't connect to us directly, but if we are bridged, our IP address will be routable. 
