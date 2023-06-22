@@ -20,4 +20,7 @@ Our local IP address is completely different from our public IP this is because 
 Virtualisation software gives an option to switch your VM between a NAT'd IP address and a Bridged IP address.
 
 - Bridged IP addresses are IP addresses assigned by your local router, which will be NAT'd by the router when you try to connect out. NAT'd IP addresses are IP addresses assigned by out virtualisation software, which puts that box behind a NAT.
-- This means that if we are NAT'd, other computers can't connect to us directly, but if we are bridged, our IP address will be routable. 
+- This means that if we are NAT'd, other computers can't connect to us directly, but if we are bridged, our IP address will be routable.
+
+
+
