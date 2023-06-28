@@ -12,4 +12,10 @@ By the term "topology", we are actually referring to  the design or look of the 
 #### Bus Topology
 - This type of connection relies upon single connection which is known as the backbone cable.
 - Because all the data destined for each device travels along the same cable, it is very prone to becoming slow and bottlenecked if the devices within the topology are simultaneously requesting data. This bottleneck also results in very difficult troubleshooting because it quickly becomes difficult to identify which device is experiencing issues.
-- Bus topoligies are one of the easier
+- Bus topoligies are one of the easier and more cost-efficient topologies to set up because of their expenses, such as cabling or dedicated networking equipment used to connect these devices.
+- Lastly, another disadvantage of the bus topology is that there is little redundancy in place of these failures .This disadvantage is because there is single point of failure along the backbone cable. If this cable were to break, devices can no longer receive or transmit data along the bus.
+
+#### Ring Topology
+- Aka token topology. Devices such as computers are connected to each other to form a loop, meaning that there is little cabling required and less dependence on the dedicated hardware such as within star topology.
+- It works by sending the data around the ring until it reaches the destination.
+- These are less prone to bottlenecks, such as within topology, as large amounts of traffic are not travelling across the network at any one time. The design of this topology does, however 
