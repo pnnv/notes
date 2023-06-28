@@ -18,4 +18,10 @@ By the term "topology", we are actually referring to  the design or look of the 
 #### Ring Topology
 - Aka token topology. Devices such as computers are connected to each other to form a loop, meaning that there is little cabling required and less dependence on the dedicated hardware such as within star topology.
 - It works by sending the data around the ring until it reaches the destination.
-- These are less prone to bottlenecks, such as within topology, as large amounts of traffic are not travelling across the network at any one time. The design of this topology does, however 
+- These are less prone to bottlenecks, such as within topology, as large amounts of traffic are not travelling across the network at any one time. The design of this topology does, however, mean that a fault such as a cut cable, or broken device will result in the entire network breaking.
+
+#### Switches
+- These are dedicated devices within the network that are designed to aggregate multiple other devices such as computers, printers, or any other networking-capable devices using the Ethernet. These multiple devices plug into a switch's port.
+- There are generally found in places which have larger networks.
+- Switches are more efficient than their lesser counterpart (hubs/repeaters). Switches keep track of what device is connected to which port. This way, when they receive a packet, instead of repeating that packet to every port like hub would do, it just sends it to the intended target, thus reducing network traffic.
+- Both switches and routers can be connected to one another. The ability to do this increases the reliability of the network by adding multiple paths

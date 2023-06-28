@@ -30,4 +30,4 @@ This is the output of the command `$ ping -c 5 google.com` (i.e. ping google.com
 
 - Here are we are pinging the device which has the private address of `216.58.200.206`. Ping informs us that we have sent five ICMP packets, all of which were received with the average time of 4 seconds.
 
-Next [[LAN (Basics]]
+Next [[LAN (Basics)]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/LAN (Basics.md",
+                "file": "Networking/LAN (Basics).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/LAN (Basics.md",
+                "file": "Networking/LAN (Basics).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/LAN (Basics.md",
+                "file": "Networking/LAN (Basics).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/LAN (Basics.md"
+                "file": "Networking/LAN (Basics).md"
               }
             }
           },
@@ -164,7 +164,7 @@
   "active": "83636bb485578b67",
   "lastOpenFiles": [
     "Networking/THM Networking.md",
-    "Networking/LAN (Basics.md",
+    "Networking/LAN (Basics).md",
     "Untitled.md",
     "ctf/Encryption and Cryptography.md",
     "ctf/File Carving.md",

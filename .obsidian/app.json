@@ -14,5 +14,6 @@
   "showFrontmatter": true,
   "showLineNumber": false,
   "rightToLeft": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true
 }
