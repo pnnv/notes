@@ -31,4 +31,23 @@ By the term "topology", we are actually referring to  the design or look of the 
 - Routing is the label given to the process of data travelling across the networks. Routing involves creating a path between networks so that this data can be successfully delivered.
 - Routing is useful when devices are connected by many paths.
 
-####
+#### Subnetting
+Subnetting is the term given to splitting up a network into smaller, minature networks withing itself.
+- Networks need to know the address to send the data to hte correct location. Network administrators use subnetting to categorise and assign specific parts of a network to reflect this.
+- It is achieved by splitting up the number of hosts that can fit within the network, represented by a number called a subnet mask. 
+
+Subnets use IP addresses in 3 different ways:
+- Identify the network address
+- identify the host address
+- identify the default gateway
+
+-  Network address:
+	- This address identifies the start of the actual network and is used to identify a network's existence. 
+	  
+	  For example, a device with the IP address of 192.168.1.100 will be on the network identified by 192.168.1.0
+- Host address:
+	- An IP address here is used to identify a device on the subnet.
+	  For example, a device will have the network address of 192.168.1.1
+- Default gateway:
+	- The default gateway address is a special address assigned to a device on the network that is capable of sending information to another network.
+	- Any data that needs to go to a device that isn't on the same network (i.e. isn't on 192.168.1.0) will be sent to this device. These devices can use any host address but usually use either the first or last host address in a network (.1 or .254)
