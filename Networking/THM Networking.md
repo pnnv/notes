@@ -29,3 +29,5 @@ rtt min/avg/max/mdev = 60.678/60.823/61.070/0.135 ms
 This is the output of the command `$ ping -c 5 google.com` (i.e. ping google.com 5 times).
 
 - Here are we are pinging the device which has the private address of `216.58.200.206`. Ping informs us that we have sent five ICMP packets, all of which were received with the average time of 4 seconds.
+
+Next [[LAN (Basics]]
