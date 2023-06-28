@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Networking/LAN (Basics).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Networking/LAN (Basics).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Networking/LAN (Basics).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Networking/LAN (Basics).md"
               }
             }
           },
@@ -162,10 +163,11 @@
   },
   "active": "83636bb485578b67",
   "lastOpenFiles": [
-    "ctf/Corrupt Transmission 50.md",
-    "Networking/LAN (Basics).md",
+    "Networking/Routing Tables.md",
     "Networking/THM Networking.md",
+    "ctf/Corrupt Transmission 50.md",
     "Untitled.md",
+    "Networking/LAN (Basics).md",
     "ctf/Encryption and Cryptography.md",
     "ctf/File Carving.md",
     "ctf/File Metadata.md",
@@ -174,7 +176,6 @@
     "ctf/Misc.md",
     "ctf/Modern Crypto.md",
     "Networking/Basics Of Networking.md",
-    "Networking/Routing Tables.md",
     "Networking/Getting Started.md",
     "Linux Fundamentals/File Recovery.md",
     "Linux Fundamentals/Hardware.md",
