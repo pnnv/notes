@@ -34,7 +34,9 @@ By the term "topology", we are actually referring to  the design or look of the 
 #### Subnetting
 Subnetting is the term given to splitting up a network into smaller, minature networks withing itself.
 - Networks need to know the address to send the data to hte correct location. Network administrators use subnetting to categorise and assign specific parts of a network to reflect this.
-- It is achieved by splitting up the number of hosts that can fit within the network, represented by a number called a subnet mask. 
+- It is achieved by splitting up the number of hosts that can fit within the network, represented by a number called a subnet mask.
+
+As the IP addresses are made up of four sections called octets. The same goes for a subnet mask which is also represented as number of 4 bytes (32 bits), ranging from 0 to 255 (0-255)
 
 Subnets use IP addresses in 3 different ways:
 - Identify the network address
@@ -51,3 +53,6 @@ Subnets use IP addresses in 3 different ways:
 - Default gateway:
 	- The default gateway address is a special address assigned to a device on the network that is capable of sending information to another network.
 	- Any data that needs to go to a device that isn't on the same network (i.e. isn't on 192.168.1.0) will be sent to this device. These devices can use any host address but usually use either the first or last host address in a network (.1 or .254)
+
+#### ARP Protocol
+Devices can have two identifiers: A MAC address and an IP address, the ARP protocol or **Address Resolution Protocol** in short, is the technology for devices for them to 
