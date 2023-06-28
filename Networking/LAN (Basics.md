@@ -4,4 +4,12 @@ By the term "topology", we are actually referring to  the design or look of the 
 #### Star Topology
 - The main premise is that devices are individually connected via central networking device such as a switch or a hub. This topology is the most commonly found today because of its reliability and scalability- despite the cost.
 - Any information sent to the device using this topology is sent via the central device to which it connects.
-- Because more cabling and the purchase of dedicated networking equipment is required for this topology, it is more expensive than any of the other topologies. However, despite the added cost, this 
+- Because more cabling and the purchase of dedicated networking equipment is required for this topology, it is more expensive than any of the other topologies. However, despite the added cost, this does provide some significant advantages:
+	- It is much more scalable in nature, which means that it is much easier to add more devices as the demand for the network increases.
+	- As the network scales more maintenance is required to keep the network functional, which also makes troubleshooting much harder.
+	- It is still prone to failure - albeit reduced. i.e. if the central device fails, these devices will no longer be able to send and receive data.
+
+#### Bus Topology
+- This type of connection relies upon single connection which is known as the backbone cable.
+- Because all the data destined for each device travels along the same cable, it is very prone to becoming slow and bottlenecked if the devices within the topology are simultaneously requesting data. This bottleneck also results in very difficult troubleshooting because it quickly becomes difficult to identify which device is experiencing issues.
+- Bus topoligies are one of the easier
