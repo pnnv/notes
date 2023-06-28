@@ -11,5 +11,21 @@ The internet is a giant network that consists of many, many small networks withi
 	- Interestingly these can be faked in a process known as **spoofing**. This spoofing occurs when a networked device pretends to identify as another using its MAC address. When it occurs, it can often break poorly implemented security designs that assume that devices talking on a network are trustworthy.
 
 #### Ping (ICMP)
+- Ping is one of the most fundamental tools. It uses **Internet Control Usage Protocol** (ICMP) packets to determine the performance of a connection between devices, for example, if the connection exists or is reliable.
+- The time taken for ICMP packets travelling between devices is measured  by using ping. 
 
-3 
+```bash
+PING google.com (216.58.200.206) 56(84) bytes of data.
+64 bytes from del11s07-in-f14.1e100.net (216.58.200.206): icmp_seq=1 ttl=117 time=60.8 ms
+64 bytes from del11s07-in-f14.1e100.net (216.58.200.206): icmp_seq=2 ttl=117 time=61.1 ms
+64 bytes from nrt12s12-in-f206.1e100.net (216.58.200.206): icmp_seq=3 ttl=117 time=60.8 ms
+64 bytes from del11s07-in-f14.1e100.net (216.58.200.206): icmp_seq=4 ttl=117 time=60.7 ms
+64 bytes from nrt12s12-in-f206.1e100.net (216.58.200.206): icmp_seq=5 ttl=117 time=60.7 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 60.678/60.823/61.070/0.135 ms
+```
+This is the output of the command `$ ping -c 5 google.com` (i.e. ping google.com 5 times).
+
+- Here are we are pinging the device which has the private address of `216.58.200.206`. Ping informs us that we have sent five ICMP packets, all of which were received with the average time of 4 seconds.
