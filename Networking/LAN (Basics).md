@@ -24,4 +24,11 @@ By the term "topology", we are actually referring to  the design or look of the 
 - These are dedicated devices within the network that are designed to aggregate multiple other devices such as computers, printers, or any other networking-capable devices using the Ethernet. These multiple devices plug into a switch's port.
 - There are generally found in places which have larger networks.
 - Switches are more efficient than their lesser counterpart (hubs/repeaters). Switches keep track of what device is connected to which port. This way, when they receive a packet, instead of repeating that packet to every port like hub would do, it just sends it to the intended target, thus reducing network traffic.
-- Both switches and routers can be connected to one another. The ability to do this increases the reliability of the network by adding multiple paths
+- Both switches and routers can be connected to one another. The ability to do this increases the reliability of the network by adding multiple paths for data to take. If one path goes down, another can be used. Whilst this may reduce the overall performance of a network because packets have to take longer to travel, there is no downtime -- a small price to pay considering the alternative.
+
+#### Routers
+- It's a router's job to connect the networks and pass data between them. It does this by using routing (hence the name router).
+- Routing is the label given to the process of data travelling across the networks. Routing involves creating a path between networks so that this data can be successfully delivered.
+- Routing is useful when devices are connected by many paths.
+
+####
