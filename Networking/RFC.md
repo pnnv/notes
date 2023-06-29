@@ -19,5 +19,29 @@ The [TCP-IP Guide by NoStarch Press](https://nostarch.com/tcpip.htm) is recommen
 
 ```
 1. what is the TC bit?
-- 
+- TC TrunCation specifies that this message was truncated due to length greater than that permitted on the transimission protocol.
+- It is a Bool.
+
+The header contains the following fields:
+
+                                    1  1  1  1  1  1
+      0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5
+    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+    |                      ID                       |
+    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+    |QR|   Opcode  |AA|TC|RD|RA|   Z    |   RCODE   |
+    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+    |                    QDCOUNT                    |
+    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+    |                    ANCOUNT                    |
+    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+    |                    NSCOUNT                    |
+    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+    |                    ARCOUNT                    |
+    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
 ```
+
+
+#### [rfc1149.txt](https://www.rfc-editor.org/rfc/rfc1149.txt)
+
+This is a short RFC about "A Standard for the Transmission of IP Datagrams on Avian Carriers".
