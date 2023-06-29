@@ -55,4 +55,6 @@ Subnets use IP addresses in 3 different ways:
 	- Any data that needs to go to a device that isn't on the same network (i.e. isn't on 192.168.1.0) will be sent to this device. These devices can use any host address but usually use either the first or last host address in a network (.1 or .254)
 
 #### ARP Protocol
-Devices can have two identifiers: A MAC address and an IP address, the ARP protocol or **Address Resolution Protocol** in short, is the technology for devices for them to 
+Devices can have two identifiers: A MAC address and an IP address, the ARP protocol or **Address Resolution Protocol** in short, is the technology for devices for allowing the devices to identify themselves on a network.
+
+- ARP protocol allows the device to associate its MAC address with an IP address on the network. 
