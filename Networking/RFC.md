@@ -11,6 +11,13 @@ RFC documents has been used by the internet community for the last 40 years as a
 These are meant to be treated as one would treat any other standard reference.
 They are much more useful as reference than as explanatory text.
 
-#### TCP-IP Bible
+##### TCP-IP Bible
 
-The [TCP-IP Guide by NoStarch Press](https://nostarch.com/tcpip.htm) is reccommended for any queries about protocols for beginners.
+The [TCP-IP Guide by NoStarch Press](https://nostarch.com/tcpip.htm) is recommended for any queries about protocols for beginners.
+
+- The best thing about RFCs is that they will have the information that would never be found on Wikipedia or a normal reference.
+
+```
+1. what is the TC bit?
+- 
+```
