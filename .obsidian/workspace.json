@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/Wireshark.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/Wireshark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/Wireshark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Untitled.md"
+                "file": "Networking/Wireshark.md"
               }
             }
           },
@@ -163,7 +164,7 @@
   "active": "cba33523eeda808b",
   "lastOpenFiles": [
     "Networking/RFC.md",
-    "Networking/Untitled.md",
+    "Networking/Wireshark.md",
     "Networking/LAN (Basics).md",
     "Networking/THM Networking.md",
     "Networking/Routing Tables.md",
