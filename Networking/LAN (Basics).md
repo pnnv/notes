@@ -61,4 +61,13 @@ Devices can have two identifiers: A MAC address and an IP address, the ARP proto
 - When devices wish to communicate with each other, they will send a broadcast to the entire network searching for the specific device. Devices can use the ARP protocol to find the MAC address (and therefore the physical identifier) of a device for communication.
 
 ##### Working of ARP.
-- Each device within a network has ledger to store information on, which is called cache. In the context of ARP protocol, this cache stores the identifiers of other devices on the networ
+- Each device within a network has ledger to store information on, which is called cache. In the context of ARP protocol, this cache stores the identifiers of other devices on the network.
+- In order to map these two identifiers together (IP address and MAC address), the ARP protocol sends two types of messages: 
+	1. ARP request
+	2. ARP Reply
+- When an ARP request is sent, a message is broadcasted to every other device found on network by the device, asking whether or not the device's MAC address matches the requested IP address. If the device does not have the requested IP address, an ARP reply is returned to the initial device to acknowledge this. The initial device will now remember this and store it within its cache (an ARP entry).
+
+
+#### DHCP Protocol
+- IP addresses can be assigned either manually, by entering them physically into a device, or automatically and most  commonly using a DHCP (**Dynamic Host Configuration Protocol**) server.
+- When a device connects to a network, if it has not already been manually assigned an IP address, it sends out a request (**DHCP Discover**) to see if any DHCP servers are on the network. The DHCP server then replies back with an IP address the device could use (D)
