@@ -57,4 +57,8 @@ Subnets use IP addresses in 3 different ways:
 #### ARP Protocol
 Devices can have two identifiers: A MAC address and an IP address, the ARP protocol or **Address Resolution Protocol** in short, is the technology for devices for allowing the devices to identify themselves on a network.
 
-- ARP protocol allows the device to associate its MAC address with an IP address on the network. 
+- ARP protocol allows the device to associate its MAC address with an IP address on the network. Each device on a network will keep a log of the MAC address associated with other devices.
+- When devices wish to communicate with each other, they will send a broadcast to the entire network searching for the specific device. Devices can use the ARP protocol to find the MAC address (and therefore the physical identifier) of a device for communication.
+
+##### Working of ARP.
+- Each device within a network has ledger to store information on, which is called cache. In the context of ARP protocol, this cache stores the identifiers of other devices on the networ
