@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/RFC.md",
+                "file": "Networking/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/RFC.md",
+                "file": "Networking/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/RFC.md",
+                "file": "Networking/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/RFC.md"
+                "file": "Networking/Untitled.md"
               }
             }
           },
@@ -163,8 +162,9 @@
   },
   "active": "cba33523eeda808b",
   "lastOpenFiles": [
-    "Networking/LAN (Basics).md",
     "Networking/RFC.md",
+    "Networking/Untitled.md",
+    "Networking/LAN (Basics).md",
     "Networking/THM Networking.md",
     "Networking/Routing Tables.md",
     "ctf/File Carving.md",
@@ -193,7 +193,6 @@
     "textgenerator/prompts/default/getTags.md",
     "textgenerator/prompts/default/getEmailPos.md",
     "textgenerator/prompts/default/summarize.md",
-    "textgenerator/prompts/default/simplify.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts",
     "textgenerator",

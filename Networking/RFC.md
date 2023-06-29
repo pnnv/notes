@@ -45,3 +45,6 @@ The header contains the following fields:
 #### [rfc1149.txt](https://www.rfc-editor.org/rfc/rfc1149.txt)
 
 This is a short RFC about "A Standard for the Transmission of IP Datagrams on Avian Carriers".
+
+#### Packets
+A packet capture is the recording of all the information that goes across out network. It is possible to record all the information that crosses a specific point in the path and then play it back so that you can see everything that happened. Plus you can look at the content of the encapsulated packets, which means you can look for things that are going wrong. Packet captures usually have a file extension `.pcap` or `.pcapng` and are primarily opened within a tool called [[Wireshark]]. 
