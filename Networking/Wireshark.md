@@ -42,3 +42,13 @@ We can use the blue "shark button" to start network sniffing (capturing traffic)
 
 ##### Merge PCAP files
 Wireshark can combine two PCAP files into one single file. We can either use the "File -> Merge" menu path to merge a pcap with the processed one. Note that we need to save the merged the file before working with it.
+
+
+#### Packet Dissection
+You can click on a packet in the packet list pane to open  its details (double click will open the details in the new window). Packets consist of 5 to 7 layers based on the OSI model. 
+
+- Each time we click a detail, it will highlight the corresponding part of the packet in the bytes pane.
+Looking at this pane, we can see seven  distinct layers to the packet: frame/packet, source \[MAC\], source \[IP\], protocol, protocol errors, application protocol, and application data. 
+
+- **The frame (Layer 1)**: This will show you what frame/packet you are looking at and details  specific to the physical layer of the OSI model.
+- **Source [MAC] (layer 2)**: This will show you the source and destination MAC address; from Data Link layer of the OSI model.
