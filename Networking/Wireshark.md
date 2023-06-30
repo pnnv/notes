@@ -31,4 +31,14 @@ Now we can see the processed file name, detailed number of packets and packet de
 
 ##### Colouring Packets
 - Along with quick packet information, Wireshark also colour packets in order of different conditions and the protocol to spot anomalies and protocols in captures quickly. 
-- At a glance packet information can help track down exactly what we are looking for during analysis. We can even create custom colour tools to spot events of interest by using
+- At a glance packet information can help track down exactly what we are looking for during analysis. We can even create custom colour tools to spot events of interest by using display filters.
+
+Wireshark also has two types of colouring methods:
+- temporary rules which are only available during the analysis of that certain program session.
+- permanent rules that are saved under the preference file (profile) and available for the next program session.
+
+##### Traffic Sniffing
+We can use the blue "shark button" to start network sniffing (capturing traffic), the red button will stop sniffing, and green button will restart the sniffing process. The status bar will also provide the used sniffing interface and the number of collected packets.
+
+##### Merge PCAP files
+Wireshark can combine two PCAP files into one single file. We can either use the "File -> Merge" menu path to merge a pcap with the processed one. Note that we need to save the merged the file before working with it.
