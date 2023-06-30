@@ -21,3 +21,14 @@ Wireshark GUI runs with a single all-in-one page, which helps users investigate 
 - **Status Bar**: Tool status, profile and numeric packet information.
 
 ##### Loading PCAP files
+We can use `file` menu or drag and drop the file or double-click on the file to load a pcap.
+
+Now we can see the processed file name, detailed number of packets and packet details. Packet details are shown in three different panes, which allow us to discover them in different formats:
+
+- **Packet List Pane**: Summary of each packet (source and destination address, protocol, and packet info). You can click on the list to choose a packet for further investigation. Once you select a packet, the details will appear in the other panels.
+- **Packet Details Pane**: Detailed protocol breakdown of the selected packet.
+- **Packet Bytes Pane**: Hex and decoded ASCII representation of the selected packet field depending on the clicked section in the details pane.
+
+##### Colouring Packets
+- Along with quick packet information, Wireshark also colour packets in order of different conditions and the protocol to spot anomalies and protocols in captures quickly. 
+- At a glance packet information can help track down exactly what we are looking for during analysis. We can even create custom colour tools to spot events of interest by using
