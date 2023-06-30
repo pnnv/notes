@@ -68,5 +68,20 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
   - The second point is choosing the search field. We can conduct searches in three panes (packet list, packet details, and packet bytes), and it is important to know the available information in each pane to find the  event of interest.
 - **Mark Packets**: Marking packets is yet another helpful functionality. We can find/point specific packet for further investigation by marking it. It helps analysts point to an event of interest or export particular packets from the capture.
 - Marked packets will be shown in the black regardless of the original colour representing the connection type. Note that marked packet information is renewed every file session, so marked packets will be lost after closing the capture file.
+ 
 - **Packet Comments**: Similar to packet marking, commenting is another helpful feature for analysts. We can add comments for particular packets that will help the further investigation or remind and point out important/suspicious points for other layer analysts. Unlike packet marking, the comments can stay within the capture file until the operator removes them.
-- **Export Packets**: Capture files can contain thousands of packets in a single file.
+ 
+- **Export Packets**: Capture files can contain thousands of packets in a single file. Wireshark is not an IDS, so sometimes it is necessary to separate specific packages from the file and dig deeper to resolve an incident. This functionality helps analysts share the only suspicious packages (decided scope). This redundant information is not included in the analysis process.
+
+- **Export Objects (Files)**: Wireshark can extract files transferred through the wire. It is vital to discover shared files and save them for further investigation. Exporting objects is only available for selected protocol's streams (DICOM, HTTP, IMF, SMB and TFTP).
+- **Time Display Format**: The packets are listed as they are captured, so investigating the default flow is not always the best option. By default, wireshark shows time in "seconds since the beginning of capture", the common usage is using the UTC time display format for a better view
+- **Expert Info**: Wireshark also detects specific state of protocols to help analysts easily spot possible anomalies and problems. Note that these are only suggestions, and there is always a change of having false positives/negatives. Expert info can provide a group of categories in three different severities.
+
+|   |   |   |
+|---|---|---|
+|**Severity**|**Colour**|**Info**|
+|**Chat**|**Blue**|Information on usual workflow.|
+|**Note**|**Cyan**|Notable events like application error codes.|
+|**Warn**|**Yellow**|Warnings like unusual error codes or problem statements.|
+|**Error**|**Red**|Problems like malformed packets.|
+- Frequently encountered information groups are listed in the table below
