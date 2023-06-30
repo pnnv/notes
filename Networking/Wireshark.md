@@ -105,4 +105,10 @@ Wireshark has two types of filters:
 This is the most way of filtering traffic. While investigating a capture file, we can click on the field we want to filter and use the "right-click menu" or "Analyse->Apply as Filter" menu to filter the specific value. Once you apply the filter, wireshark will generate the required filter for query, apply it, show the packets according to your choice, and hide the unselected packets, apply it, show the packets according to your choice, and hide the unselected packets from the packet list pane.
 
 **Conversation Filter**
-When we use the "Apply as Filter" option, you will filter only a single entity of the packet. This option is a good way of investigating particular values in packets. However, suppose you want to investigate a specific packet number and all linked packets by focusing on IP address and port numbers. In that case, the "Conversation Filter"
+When we use the "Apply as Filter" option, you will filter only a single entity of the packet. This option is a good way of investigating particular values in packets. However, suppose you want to investigate a specific packet number and all linked packets by focusing on IP address and port numbers. In that case, the "Conversation Filter" option helps us view only the related packets and hide the rest of the packets easily. We can use the "right-click menu" or "Analyse->Conversation Filter" menu to filter the conversations.
+
+**Colourise Conversation**
+This option is similar to the "Conversation Filter" with one difference. It highlights the linked packets without applying a display filter and decreasing the number of viewed packets. This packet works with the colourising rules option and changes the packet colours without considering the previously applied colour rule. You can use the "right-click menu" or "View->Colourise Conversation" menu to colourise a linked packet in a single click. This can also be reset using some common sense.
+
+**Prepare as Filter**
+Similar to "Apply as Filter", this option helps analysts create display filters using the "right-click" menu. However, unlike the previous one, this model doesn't apply the filters after the choice. It adds the required query to the pane and waits for the execution command (enter) or another chosen file entering 
