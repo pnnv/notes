@@ -66,5 +66,7 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
   There are two crucial points in finding packets:
   - The first is knowing the input type. This functionally accepts four types of inputs (Display Filter, Hex, String and Regex). Searches are case insensitive, but we have an option to change that.
   - The second point is choosing the search field. We can conduct searches in three panes (packet list, packet details, and packet bytes), and it is important to know the available information in each pane to find the  event of interest.
-
-
+- **Mark Packets**: Marking packets is yet another helpful functionality. We can find/point specific packet for further investigation by marking it. It helps analysts point to an event of interest or export particular packets from the capture.
+- Marked packets will be shown in the black regardless of the original colour representing the connection type. Note that marked packet information is renewed every file session, so marked packets will be lost after closing the capture file.
+- **Packet Comments**: Similar to packet marking, commenting is another helpful feature for analysts. We can add comments for particular packets that will help the further investigation or remind and point out important/suspicious points for other layer analysts. Unlike packet marking, the comments can stay within the capture file until the operator removes them.
+- **Export Packets**: Capture files can contain thousands of packets in a single file.
