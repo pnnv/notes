@@ -65,6 +65,6 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
 - **Find the Packets**: Apart from the packet number, wireshark can also find the packets by content. We can use the "Edit -> Find Packet" menu to make search inside the packets for a particular event of interest.
   There are two crucial points in finding packets:
   - The first is knowing the input type. This functionally accepts four types of inputs (Display Filter, Hex, String and Regex). Searches are case insensitive, but we have an option to change that.
-  - The second point is choosing the search field. We can conduct searches in three panes (packet list, packet details, and packet bytes), and it is imp
+  - The second point is choosing the search field. We can conduct searches in three panes (packet list, packet details, and packet bytes), and it is important to know the available information in each pane to find the  event of interest.
 
 
