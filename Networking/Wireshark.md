@@ -57,6 +57,14 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
 - **Protocol Errors**: This continuation of the 4th layer shows specific segments from the TCP that needs to be reassembled
 - **Application Protocol (Layer 5)**: This will show us the details specific to the protocol used, such as `HTTP` ,`FTP`, and `SMB`. From the application layer of the OSI model.
 - **Application Data**: This extension of the 5th layer can show application-specific data.
-- **Packet Numbers**Wireshark calculates the number of investigated packets and assigns a unique number for each packet. This helps the analysis process for big captures and makes it easy to go back to a specific point of an event.
+
+---
+
+- **Packet Numbers**: Wireshark calculates the number of investigated packets and assigns a unique number for each packet. This helps the analysis process for big captures and makes it easy to go back to a specific point of an event.
+- **Go to Packet**: Packet numbers do not only help to count the total number of packets or make it easier to find/investigate specific packets. This feature not only navigates between packets up and down; it also provides in-frame packet tracking and finds the next packet in the particular part of the conversation. You can use the "Go" menu in the toolbar to view specific packets.
+- **Find the Packets**: Apart from the packet number, wireshark can also find the packets by content. We can use the "Edit -> Find Packet" menu to make search inside the packets for a particular event of interest.
+  There are two crucial points in finding packets:
+  - The first is knowing the input type. This functionally accepts four types of inputs (Display Filter, Hex, String and Regex). Searches are case insensitive, but we have an option to change that.
+  - The second point is choosing the search field. We can conduct searches in three panes (packet list, packet details, and packet bytes), and it is imp
 
 
