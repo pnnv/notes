@@ -119,4 +119,6 @@ We can use the "Analyse-> Apply as Column" menu to add columns to the packet lis
 **Follow Stream**
 Wireshark displays everything in packet portion size. However, it is possible to reconstruct the streams and view the raw traffic as it is presented at the application level. Following the protocol, streams help analysts recreate the application-level data and understand the event of interest. It is also possible to view the unencrypted protocol data like usernames, passwords and other transferred data.
 
-You can use the "right-click menu" or "Analyse->Follow TCP/UDP/HTTP Stream" menu to follow traffic streams. Streams are shown in a separate dialogue box; packets originating from t
+You can use the "right-click menu" or "Analyse->Follow TCP/UDP/HTTP Stream" menu to follow traffic streams. Streams are shown in a separate dialogue box; packets originating from the server are highlighted with blue, and those originating from the client are highlighted with red.
+
+Once you follow the stream, wireshark automatically creates and applies the required filter to view the specific stream. Remember, once a filter is applied the number of viewed packets will change. We will need to use the "X buttonp" located on the right upper side of the display filter bar to remove the display filter and view all available packets in the capture file.
