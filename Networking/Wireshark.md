@@ -95,9 +95,11 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
 - We can use the "lower left bottom section" in the status bar or "**Analyse -> Expert Information**" menu to view all available information entries via dialogue box. It will show the packet number and summary, group protocol and total occurrence.
 
 
-- **Packet Filtering**:
-Wireshark has two types of filters:
-1. capture filters
-2. display filters
+**Packet Filtering**
 
-**capture filters** are used for capturing
+Wireshark has two types of filters:
+1. capture filters are used for capturing only the packets valid for the used filter.
+2. display filters are used for viewing the packets valid for the used filter.
+
+##### Apply as Filter
+This is the most way of filtering traffic. 
