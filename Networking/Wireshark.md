@@ -84,4 +84,20 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
 |**Note**|**Cyan**|Notable events like application error codes.|
 |**Warn**|**Yellow**|Warnings like unusual error codes or problem statements.|
 |**Error**|**Red**|Problems like malformed packets.|
-- Frequently encountered information groups are listed in the table below
+- Frequently encountered information groups are listed in the table below. We can refer to Wireshark's official documentation for more information on the expert information entries.
+
+|   |   |   |   |
+|---|---|---|---|
+|**Group**|**Info**|**Group**|**Info**|
+|**Checksum**|Checksum errors.|**Deprecated**|Deprecated protocol usage.|
+|**Comment**|Packet comment detection.|**Malformed**|Malformed packet detection.|
+
+- We can use the "lower left bottom section" in the status bar or "**Analyse -> Expert Information**" menu to view all available information entries via dialogue box. It will show the packet number and summary, group protocol and total occurrence.
+
+
+- **Packet Filtering**:
+Wireshark has two types of filters:
+1. capture filters
+2. display filters
+
+**capture filters** are used for capturing
