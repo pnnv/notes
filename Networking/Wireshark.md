@@ -111,4 +111,10 @@ When we use the "Apply as Filter" option, you will filter only a single entity o
 This option is similar to the "Conversation Filter" with one difference. It highlights the linked packets without applying a display filter and decreasing the number of viewed packets. This packet works with the colourising rules option and changes the packet colours without considering the previously applied colour rule. You can use the "right-click menu" or "View->Colourise Conversation" menu to colourise a linked packet in a single click. This can also be reset using some common sense.
 
 **Prepare as Filter**
-Similar to "Apply as Filter", this option helps analysts create display filters using the "right-click" menu. However, unlike the previous one, this model doesn't apply the filters after the choice. It adds the required query to the pane and waits for the execution command (enter) or another chosen file entering 
+Similar to "Apply as Filter", this option helps analysts create display filters using the "right-click" menu. However, unlike the previous one, this model doesn't apply the filters after the choice. It adds the required query to the pane and waits for the execution command (enter) or another chosen file filtering option by the ".. and/or.." from the "right-click menu".
+
+**Apply as Column**
+We can use the "Analyse-> Apply as Column" menu to add columns to the packet list pane. Once you click on a value and apply it as column, it will be visible on the packet list pane. This function helps analysts examine the appearance of a specific value/field across the available packets in the capture file. You can enable/disable the columns shown in the packet list pane by clicking on the top of the packet list pane.
+
+**Follow Stream**
+Wireshark displays everything in packet portion size. However, it is possible to reconstruct the streams and view the raw traffic as it is presented at the application level. Following
