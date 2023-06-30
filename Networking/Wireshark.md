@@ -117,4 +117,6 @@ Similar to "Apply as Filter", this option helps analysts create display filters 
 We can use the "Analyse-> Apply as Column" menu to add columns to the packet list pane. Once you click on a value and apply it as column, it will be visible on the packet list pane. This function helps analysts examine the appearance of a specific value/field across the available packets in the capture file. You can enable/disable the columns shown in the packet list pane by clicking on the top of the packet list pane.
 
 **Follow Stream**
-Wireshark displays everything in packet portion size. However, it is possible to reconstruct the streams and view the raw traffic as it is presented at the application level. Following
+Wireshark displays everything in packet portion size. However, it is possible to reconstruct the streams and view the raw traffic as it is presented at the application level. Following the protocol, streams help analysts recreate the application-level data and understand the event of interest. It is also possible to view the unencrypted protocol data like usernames, passwords and other transferred data.
+
+You can use the "right-click menu" or "Analyse->Follow TCP/UDP/HTTP Stream" menu to follow traffic streams. Streams are shown in a separate dialogue box; packets originating from t
