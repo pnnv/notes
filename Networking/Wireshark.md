@@ -52,4 +52,9 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
 
 - **The frame (Layer 1)**: This will show you what frame/packet you are looking at and details  specific to the physical layer of the OSI model.
 - **Source [MAC] (layer 2)**: This will show you the source and destination MAC address; from Data Link layer of the OSI model.
-- **Source [IP] (Layer 3)**: This will show us the sour
+- **Source [IP] (Layer 3)**: This will show us the source and destination of the IPv4 addresses; from the network layer and the OSI model.
+- **Protocol (Layer 4)**: This will show us the details of protocol used (TCP/UDP) and source & destination ports; from the Transport layer of the OSI model.
+- **Protocol Errors**: This continuation of the 4th layer shows specific segments from the TCP that needs to be reassembled
+- **Application Protocol (Layer 5)**: This will show us the details specific to the protocol used, such as `HTTP` ,`FTP`, and `SMB`. From the application layer of the OSI model.
+- **Application Data**: This extension of the 5th layer can show application-specific data.
+- 
