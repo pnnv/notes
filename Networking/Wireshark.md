@@ -57,4 +57,6 @@ Looking at this pane, we can see seven  distinct layers to the packet: frame/pac
 - **Protocol Errors**: This continuation of the 4th layer shows specific segments from the TCP that needs to be reassembled
 - **Application Protocol (Layer 5)**: This will show us the details specific to the protocol used, such as `HTTP` ,`FTP`, and `SMB`. From the application layer of the OSI model.
 - **Application Data**: This extension of the 5th layer can show application-specific data.
-- 
+- **Packet Numbers**Wireshark calculates the number of investigated packets and assigns a unique number for each packet. This helps the analysis process for big captures and makes it easy to go back to a specific point of an event.
+
+
