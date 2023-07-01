@@ -122,3 +122,5 @@ Wireshark displays everything in packet portion size. However, it is possible to
 You can use the "right-click menu" or "Analyse->Follow TCP/UDP/HTTP Stream" menu to follow traffic streams. Streams are shown in a separate dialogue box; packets originating from the server are highlighted with blue, and those originating from the client are highlighted with red.
 
 Once you follow the stream, wireshark automatically creates and applies the required filter to view the specific stream. Remember, once a filter is applied the number of viewed packets will change. We will need to use the "X buttonp" located on the right upper side of the display filter bar to remove the display filter and view all available packets in the capture file.
+
+  
