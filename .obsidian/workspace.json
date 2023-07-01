@@ -161,8 +161,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "58051e56f5dc6e1d",
+  "active": "cba33523eeda808b",
   "lastOpenFiles": [
+    "capout.pcap",
     "Networking/Wireshark.md",
     "Networking/Scripting and Tshark.md",
     "Networking/RFC.md",
@@ -193,7 +194,6 @@
     "textgenerator/prompts/default/getIdeas.md",
     "textgenerator/prompts/default/getParagraph.md",
     "textgenerator/prompts/default/getTags.md",
-    "textgenerator/prompts/default/getEmailPos.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts",
     "textgenerator",
