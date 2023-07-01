@@ -123,4 +123,4 @@ You can use the "right-click menu" or "Analyse->Follow TCP/UDP/HTTP Stream" menu
 
 Once you follow the stream, wireshark automatically creates and applies the required filter to view the specific stream. Remember, once a filter is applied the number of viewed packets will change. We will need to use the "X buttonp" located on the right upper side of the display filter bar to remove the display filter and view all available packets in the capture file.
 
-  
+Further in [[Scripting and Tshark]]
