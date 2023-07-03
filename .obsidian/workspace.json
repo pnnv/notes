@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Scripting and Tshark.md",
+                "file": "Networking/Misc Commands.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Scripting and Tshark.md",
+                "file": "Networking/Misc Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Scripting and Tshark.md",
+                "file": "Networking/Misc Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Scripting and Tshark.md"
+                "file": "Networking/Misc Commands.md"
               }
             }
           },
@@ -163,13 +163,16 @@
   },
   "active": "cba33523eeda808b",
   "lastOpenFiles": [
-    "capout.pcap",
-    "Networking/Wireshark.md",
     "Networking/Scripting and Tshark.md",
-    "Networking/RFC.md",
-    "Networking/LAN (Basics).md",
     "Networking/THM Networking.md",
     "Networking/Routing Tables.md",
+    "Networking/Misc Commands.md",
+    "Networking/Basics Of Networking.md",
+    "Networking/Getting Started.md",
+    "Networking/LAN (Basics).md",
+    "Networking/Wireshark.md",
+    "capout.pcap",
+    "Networking/RFC.md",
     "ctf/File Carving.md",
     "ctf/Corrupt Transmission 50.md",
     "ctf/Encryption and Cryptography.md",
@@ -178,8 +181,6 @@
     "ctf/Math.md",
     "ctf/Misc.md",
     "ctf/Modern Crypto.md",
-    "Networking/Basics Of Networking.md",
-    "Networking/Getting Started.md",
     "Linux Fundamentals/File Recovery.md",
     "Linux Fundamentals/Hardware.md",
     "pages/contents.md",
@@ -200,7 +201,6 @@
     "Networking",
     "Pasted image 20230605050803.png",
     "netsec/Untitled.canvas",
-    "Attachments",
     "netsec/ctf/Untitled.canvas",
     "Pasted image 20230528233845.png"
   ]
