@@ -48,12 +48,14 @@ default via 172.16.132.1 dev enp6s0 proto dhcp src 172.16.132.89 metric 100
 172.16.132.0/24 dev enp6s0 proto kernel scope link src 172.16.132.89 metric 100 
 ```
 
-We can also use `ip` command to change values, whether that's out
+We can also use `ip` command to change values, whether that's our ip, configure interfaces and change routes.
 ```bash
 ## Disable the NIC so you can modify it
 $ ip link set dev $NIC down
-## set new MAC address ##
+## set new MAC address
 $ ip link set dev $NIC address DE:AD:BE:EF:BA:BE
 ## Re-enable the NIC
 $ ip link set dev $NIC up
 ```
+
+Run the command `$ nc -lp 1337`. After running the command, go look for the nc process.
