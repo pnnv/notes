@@ -59,3 +59,4 @@ $ ip link set dev $NIC up
 ```
 
 Run the command `$ nc -lp 1337`. After running the command, go look for the nc process.
+

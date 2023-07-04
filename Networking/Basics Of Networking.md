@@ -24,3 +24,6 @@ Virtualisation software gives an option to switch your VM between a NAT'd IP add
 
 
 
+##### Clients and Servers
+Computers connected to the internet are called clients and servers.
+- Clients are typical web user's internet-connected devices
