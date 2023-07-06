@@ -26,4 +26,9 @@ Virtualisation software gives an option to switch your VM between a NAT'd IP add
 
 ##### Clients and Servers
 Computers connected to the internet are called clients and servers.
-- Clients are typical web user's internet-connected devices
+- Clients are typical web user's internet-connected devices (for example our computer is connected to Wi-Fi or phone is connected to mobile data) and web-accessing software like firefox or chrome.
+- Servers are computers that store webpages, sites, or apps. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the machine to be displayed in the user's web browser.
+
+- **Internet connection**: Allows us to send and receive data on the web
+- **TCP/IP**: Transmission Control Protocol and Internet Protocol are communication protocols that define how data should travel across the internet .
+- **DNS**: Domain Name System is like an address book for websites. When we type a web address in out browser, the browser looks at the DNS to find thr web
