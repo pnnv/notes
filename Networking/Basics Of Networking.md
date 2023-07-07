@@ -49,4 +49,5 @@ Computers connected to the internet are called clients and servers.
 When browsers send requests for the `HTML` files these files sometimes also contain \<links\> to external `CSS` stylesheets and any \<script\> elements referencing external JavaScript scripts.
 
 - The browser parses the `HTML` file first, and that leads to the browser recognising any `<link>`-element references to external CSS stylesheets and any `<script>`-element references to the script.
-- As the browser parses the HTML, it sends the 
+- As the browser parses the HTML, it sends requests back to the server for any CSS files it has found from `<link>` elements, and from those, then parses the CSS and JavaScript.
+- The browser generates an in-memory DOM tree from the 
