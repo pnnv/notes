@@ -42,4 +42,11 @@ Computers connected to the internet are called clients and servers.
 1. The browser goes to the DNS server, and finds the real address of the server that the website lives on.
 2. The browser sends an HTTP request message to the server, asking it to send a copy of the website to the client. The website and all the other data is sent to us using TCP/IP.
 3. The server approves client's request, the server sends the client a "200 OK" message, which means "Of course you can look at the website! Here it is", and then starts sending the website's files to the browser as a series of small chunks called data packets.
-4. The browser assembles all the small chunks into a complete web page and displays
+4. The browser assembles all the small chunks into a complete web page and displays it to you.
+
+##### Order in which component files are parsed.
+
+When browsers send requests for the `HTML` files these files sometimes also contain \<links\> to external `CSS` stylesheets and any \<script\> elements referencing external JavaScript scripts.
+
+- The browser parses the `HTML` file first, and that leads to the browser recognising any `<link>`-element references to external CSS stylesheets and any `<script>`-element references to the script.
+- As the browser parses the HTML, it sends the 
