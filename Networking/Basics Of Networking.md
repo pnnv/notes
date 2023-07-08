@@ -54,3 +54,11 @@ When browsers send requests for the `HTML` files these files sometimes also cont
 - As the browser builds the DOM tree and applies the styles from the CSSDOM tree and executes the JavaScript, the visual representation of the page is painted on the screen, and the user sees the page content and can begin to interact with it.
 
 #### DNS
+The real web address aren't like the websites we type in generally to visit a certain website, they're numbers that look like `64.243.642.22`.
+
+This is called IP address, and it represents a unique location on the web. However, it's not very easy to remember and that is why the DNS (Domain Name System) was invented. This system uses special servers that match up a web address we type into the browser to the website's real (IP) address.
+
+Websites can be directly reached by the IP addresses, for that we can use the [DNS lookup tool](https://www.nslookup.io/website-to-ip-lookup/) to find the IP address of a website.
+
+#### Packets
+When data is sent across the web, it is sent in thousands of small chunks. There are multiple reasons why data is sent in small packets
