@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Basics Of Networking.md",
+                "file": "Networking/curl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Basics Of Networking.md",
+                "file": "Networking/curl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Basics Of Networking.md",
+                "file": "Networking/curl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Basics Of Networking.md"
+                "file": "Networking/curl.md"
               }
             }
           },
@@ -164,6 +163,7 @@
   "active": "cba33523eeda808b",
   "lastOpenFiles": [
     "Networking/Basics Of Networking.md",
+    "Networking/curl.md",
     "Networking/Misc Commands.md",
     "Networking/Scripting and Tshark.md",
     "Networking/THM Networking.md",
@@ -194,7 +194,6 @@
     "textgenerator/prompts/default/getOutline.md",
     "textgenerator/prompts/default/getIdeas.md",
     "textgenerator/prompts/default/getParagraph.md",
-    "textgenerator/prompts/default/getTags.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts",
     "textgenerator",

@@ -61,4 +61,4 @@ This is called IP address, and it represents a unique location on the web. Howev
 Websites can be directly reached by the IP addresses, for that we can use the [DNS lookup tool](https://www.nslookup.io/website-to-ip-lookup/) to find the IP address of a website.
 
 #### Packets
-When data is sent across the web, it is sent in thousands of small chunks. There are multiple reasons why data is sent in small packets
+When data is sent across the web, it is sent in thousands of small chunks. There are multiple reasons why data is sent in small packets. They are sometimes dropped to corrupted and it's easier to replace small chunks when that happens. Additionally, the packets can be routed through different paths, making the exchange faster and allowing many different users to download the same website at the same time. If each website was sent as a single big chunk, only one user could download it at the same time, which would make web a hassle to use. 
