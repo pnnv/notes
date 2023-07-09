@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Wireshark.md",
-                "mode": "preview",
+                "file": "Networking/Terminology and Protocols.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Wireshark.md",
+                "file": "Networking/Terminology and Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Wireshark.md",
+                "file": "Networking/Terminology and Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Wireshark.md"
+                "file": "Networking/Terminology and Protocols.md"
               }
             }
           },
@@ -163,10 +163,11 @@
   },
   "active": "cba33523eeda808b",
   "lastOpenFiles": [
-    "Networking/Scripting and Tshark.md",
-    "Networking/Wireshark.md",
-    "Networking/curl.md",
     "Networking/Basics Of Networking.md",
+    "Networking/Terminology and Protocols.md",
+    "Networking/Wireshark.md",
+    "Networking/Scripting and Tshark.md",
+    "Networking/curl.md",
     "Networking/Misc Commands.md",
     "Networking/THM Networking.md",
     "Networking/Routing Tables.md",
@@ -194,7 +195,6 @@
     "textgenerator/prompts/default/getTitles.md",
     "textgenerator/prompts/default/getOutline.md",
     "textgenerator/prompts/default/getIdeas.md",
-    "textgenerator/prompts/default/getParagraph.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts",
     "textgenerator",
