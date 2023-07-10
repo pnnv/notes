@@ -10,4 +10,6 @@ Some low level protocols are TCP, UDP, IP, and ICMP. Some examples of applicatio
 - **VPN**: VPN stands for virtual private network. It is a means of connecting separate LANs through internet, while maintaining privacy. This is used to connect remote systems as if they were on a local network, often for security reasons.
 
 #### Network Layers
+y to develop the protocols and applications that handle those types of traffic.
 
+The language that we use to talk about ea
