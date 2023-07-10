@@ -10,6 +10,8 @@ Some low level protocols are TCP, UDP, IP, and ICMP. Some examples of applicatio
 - **VPN**: VPN stands for virtual private network. It is a means of connecting separate LANs through internet, while maintaining privacy. This is used to connect remote systems as if they were on a local network, often for security reasons.
 
 #### Network Layers
-y to develop the protocols and applications that handle those types of traffic.
+While networking is discussed in a horizontal way, its implementation is layered in a vertical fashion within any given computer or network.
 
-The language that we use to talk about ea
+Which means that there are multiple technologies and protocols that are built on top of each other in order for communication to function. Each successive, higher layer abstracts the raw data a little bit more.
+
+The language that we use to talk about each of the layering schemes varies significantly depending on which model we are using. Regardless of the model used in communication, the 
