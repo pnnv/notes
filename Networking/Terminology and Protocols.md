@@ -14,4 +14,8 @@ While networking is discussed in a horizontal way, its implementation is layered
 
 Which means that there are multiple technologies and protocols that are built on top of each other in order for communication to function. Each successive, higher layer abstracts the raw data a little bit more.
 
-The language that we use to talk about each of the layering schemes varies significantly depending on which model we are using. Regardless of the model used in communication, the 
+The language that we use to talk about each of the layering schemes varies significantly depending on which model we are using. Regardless of the model used in communication, the path of the data is the same.
+
+As the data is sent out of one machine, it begins at the top of the stack and filters downwards. At the lowest level, actual transmission to another machine takes place. At this point, the data travels back up through the layers of the other computer.
+
+
