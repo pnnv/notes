@@ -8,3 +8,6 @@ Some low level protocols are TCP, UDP, IP, and ICMP. Some examples of applicatio
 - **Firewall**: A firewall is a program that decides whether traffic coming or going from a server should be allowed. A firewall usually works by creating rules for which type of traffic is acceptable on which ports. Generally, firewalls block ports that are not used by a specific application on a server.
 - **NAT**: NAT stands for network address translation. It is a way to repackage and send incoming requests to a routing server to the relevant devices or servers on LAN. This is usually implemented in physical LANs as a way to route requests through one IP address to the necessary backend servers.
 - **VPN**: VPN stands for virtual private network. It is a means of connecting separate LANs through internet, while maintaining privacy. This is used to connect remote systems as if they were on a local network, often for security reasons.
+
+#### Network Layers
+
