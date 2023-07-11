@@ -22,4 +22,5 @@ As the data is sent out of one machine, it begins at the top of the stack and fi
 
 Commonly known as the internet protocol suite, is a widely adopted layering model. It defines the four separate layers:
 
-- **Application**: In this model, the application layer is responsible for creating and transmitting user data between applications. The applications can be on remote systems, and should appear to operate as if locally to the end user. This communication is said to 
+- **Application**: In this model, the application layer is responsible for creating and transmitting user data between applications. The applications can be on remote systems, and should appear to operate as if locally to the end user. This communication is said to take place between **peers**.
+- **Transport**: The transport layer is responsible for 
