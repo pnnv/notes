@@ -23,4 +23,6 @@ As the data is sent out of one machine, it begins at the top of the stack and fi
 Commonly known as the internet protocol suite, is a widely adopted layering model. It defines the four separate layers:
 
 - **Application**: In this model, the application layer is responsible for creating and transmitting user data between applications. The applications can be on remote systems, and should appear to operate as if locally to the end user. This communication is said to take place between **peers**.
-- **Transport**: The transport layer is responsible for 
+- **Transport**: The transport layer is responsible for communication between processes. This level utilises ports.
+- **Internet**: The internet layer is used to transport data from node to node in a network. This layer is aware of the endpoints of the connections, but is not concerned with the actual connection needed to get from one place to another. That's a job for IP addresses.
+- **Link**: The link layer implements the actual topology of the local network that allows the internet layer to present an addressable interface
