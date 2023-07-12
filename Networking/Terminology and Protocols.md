@@ -36,4 +36,8 @@ In addition, it will define a virtual network interface called the "loopback" or
 
 Many times, administrators configure one interface to service traffic to the internet and another interface for a LAN or private network.
 
-In datacenters with private networking enabled, our VPNs have two networking interfaces. The 'eth0' interface will be configured
+In datacenters with private networking enabled, our VPNs have two networking interfaces. The 'eth0' interface will be configured to handle traffic from the internet, while the "eth1" interface will operate to communicate with a private network.
+
+#### Protocols
+
+Networking works by piggybacking a number of different protocols on top of each other
