@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ctf/Encryption and Cryptography.md",
+                "file": "Networking/Terminology and Protocols.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 225.5,
+    "collapsed": true
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ctf/Encryption and Cryptography.md",
+                "file": "Networking/Terminology and Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ctf/Encryption and Cryptography.md",
+                "file": "Networking/Terminology and Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ctf/Encryption and Cryptography.md"
+                "file": "Networking/Terminology and Protocols.md"
               }
             }
           },
@@ -162,6 +163,7 @@
   },
   "active": "cba33523eeda808b",
   "lastOpenFiles": [
+    "ctf/Encryption and Cryptography.md",
     "Networking/Terminology and Protocols.md",
     "Networking/Basics Of Networking.md",
     "Networking/Wireshark.md",
@@ -176,7 +178,6 @@
     "Networking/RFC.md",
     "ctf/File Carving.md",
     "ctf/Corrupt Transmission 50.md",
-    "ctf/Encryption and Cryptography.md",
     "ctf/File Metadata.md",
     "ctf/Getting Started.md",
     "ctf/Math.md",
