@@ -34,4 +34,6 @@ Typically, your server will have one configurable network interface for each Eth
 
 In addition, it will define a virtual network interface called the "loopback" or localhost interface. This is used as an interface to connect applications and processes on a single computer to other applications and processes. It is referred to as 'lo' interface in many tools.
 
-Many times, administrators configure one interf
+Many times, administrators configure one interface to service traffic to the internet and another interface for a LAN or private network.
+
+In datacenters with private networking enabled, our VPNs have two networking interfaces. The 'eth0' interface will be configured
