@@ -138,6 +138,16 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "547c27039cbe34ac",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 4
