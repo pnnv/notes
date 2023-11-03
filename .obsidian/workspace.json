@@ -8,35 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cba33523eeda808b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSS/Steps.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a38a0bf6bca27c61",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
             "id": "51dffbf724c3ffea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Cp.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,7 +21,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -112,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Cp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Cp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Cp.md"
               }
             }
           },
@@ -197,7 +173,7 @@
   },
   "active": "51dffbf724c3ffea",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Cp.md",
     "OSS/Steps.md",
     "OSS",
     "Networking/Terminology and Protocols.md",
