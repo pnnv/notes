@@ -42,4 +42,4 @@ git push
 - Making a **pull request**
 When you are ready to propose changes to the main project, this is the most important step. Visit the main project repository on Github, click **contribute** and then **Open a pull request**.
 
-Github will bring up a page that shows the differences between your fork and the main project
+Github will bring up a page that shows the differences between your fork and the main repository. Click **create pull request**, you'll be brought to a page where you can enter a title and description of your changes, it's important that you provide as much useful information and the rationale for why you are making this pull request in the first place for the project owner to be able to decide if the changes are as useful as you think they are.

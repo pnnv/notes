@@ -19,8 +19,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a38a0bf6bca27c61",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
+            "id": "51dffbf724c3ffea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -88,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSS/Steps.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSS/Steps.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSS/Steps.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -171,7 +195,7 @@
       "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "cba33523eeda808b",
+  "active": "51dffbf724c3ffea",
   "lastOpenFiles": [
     "Untitled.md",
     "OSS/Steps.md",
