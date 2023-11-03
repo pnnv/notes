@@ -5,7 +5,7 @@ Competitive Programming enthusiasts and problem solvers.
 
 We aim to build a lively community and bring together the like minded ones under the same umbrella.
 
-We invite the ones who share similar interests.
+We invite the ones who are interested to join 
 
 <group link>
 
