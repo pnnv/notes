@@ -4,9 +4,12 @@ I am guessing you are new to this, if you are wondering what is Competitive Prog
 ##### Prerequisites: 
 Basics of a programming language, preferably C++ but any other mainstream language will do.
 
-If you are new to all this, then read through the next section :3
+If you are new to all this, read through the next section :3
 
 #### Basics of Programming
-There is not a lot you need to know to get you up and running and start solving problems.
+Keep in mind that I'll be assuming that you are using C++ as your language of choice, if that's not the case you can still keep up as the instructions are pretty much universal.
 
-Keep in mind that I'll be assuming that you are using C++ as your language of choice, if that's not the case you can still keep reading as it won't 
+##### Programming Environment
+You'll need to set up a text editor, if you don't already have an editor of choice, I'll recommend 
+
+There is not a lot you need to know to get you up and running, and start solving problems.
