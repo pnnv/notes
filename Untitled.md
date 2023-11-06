@@ -33,4 +33,12 @@ These are the containers that I would recommend you learn:
 - map
 - set
 
-There are more containers 
+There are more containers which you can learn about but the ones listed above are the ones which are used the most.
+
+> P.S. If you are new to programming, I would recommend taking [CS50](https://www.harvardonline.harvard.edu/course/cs50-introduction-computer-science) (short for Computer Science 50), which is an introductory computer science course offered by Harvard University. Try it out for a bird's-eye view of a wide range of topics and to learn the fundamentals.
+
+*On to the next part :3*
+
+
+#### CodeChef
+There are a lot of platforms for Competit
