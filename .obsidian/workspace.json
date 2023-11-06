@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "~.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af23ede442b784f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hacc2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "hacc2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "hacc2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "hacc2.md"
               }
             }
           },
@@ -171,10 +185,11 @@
       "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "1f82b910efa985de",
+  "active": "af23ede442b784f9",
   "lastOpenFiles": [
+    "~.md",
+    "hacc2.md",
     "Cp.md",
-    "Untitled.md",
     "OSS/Steps.md",
     "OSS",
     "Networking/Terminology and Protocols.md",
@@ -205,7 +220,6 @@
     "journals",
     "logseq/config.edn",
     "logseq",
-    "textgenerator/prompts/default/getEmailNeg.md",
     "textgenerator/prompts/default",
     "textgenerator/prompts",
     "textgenerator",

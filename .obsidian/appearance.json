@@ -1,11 +1,11 @@
 {
   "accentColor": "",
-  "cssTheme": "Tokyo Night",
+  "cssTheme": "",
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "JetBrainsMono Nerd Font",
-  "baseFontSize": 18,
+  "baseFontSize": 19,
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "nativeMenus": false,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "showViewHeader": true
 }
