@@ -25,4 +25,12 @@ Choose any tutorial or source you like and learn about the following:
 
 This is bare minimum you need to be able to write a working code in C++, you should even be able to solve most of the basic problems using these.
 
-There's something called **Standard Template Library (STL)** in C++ using 
+There's something called **Standard Template Library (STL)** in C++ which is unarguably the most important you need to know, The STL provides efficient, well-implemented data structures and algorithms.
+
+These are the containers that I would recommend you learn:
+- vector
+- string
+- map
+- set
+
+There are more containers 
