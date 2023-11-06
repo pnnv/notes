@@ -41,4 +41,14 @@ There are more containers which you can learn about but the ones listed above ar
 
 
 #### CodeChef
-There are a lot of platforms for Competit
+There are many platforms for Competitive Programming but we will be getting started with [CodeChef](https://www.codechef.com/) which is the, in my opinion, the most beginner friendly of them all.
+
+##### Getting yourself registered
+1. Head over to [CodeChef](https://www.codechef.com/) and make an account.
+2. After logging in click on your avatar (in the top right) and go to 'Edit Profile'.
+3. In the 'Professional' section, specify that you are a student.
+4. Fill up the 'Where do you study?' section.
+
+That's it you're good to go now (:
+
+I strongly suggest going to the [Learn](https://www.codechef.com/learn) section on CodeChef 
