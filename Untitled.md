@@ -49,6 +49,11 @@ There are many platforms for Competitive Programming but we will be getting star
 3. In the 'Professional' section, specify that you are a student.
 4. Fill up the 'Where do you study?' section.
 
-That's it you're good to go now (:
+I strongly suggest visiting the [Learn](https://www.codechef.com/learn/course/cpp) section on CodeChef and going through the C++ beginner course to gain a firsthand experience in problem solving.
 
-I strongly suggest going to the [Learn](https://www.codechef.com/learn) section on CodeChef 
+Make sure that you make yourself comfortable with the format of problems and their solutions.
+
+> In the rare event that you cannot figure something out even after searching online, you can reach out to Prabhat or me(pranav).
+
+
+~~
