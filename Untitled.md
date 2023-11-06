@@ -10,6 +10,6 @@ If you are new to all this, read through the next section :3
 Keep in mind that I'll be assuming that you are using C++ as your language of choice, if that's not the case you can still keep up as the instructions are pretty much universal.
 
 ##### Programming Environment
-You'll need to set up a text editor, if you don't already have an editor of choice, I'll recommend 
+Firstly you'll need a text editor. If you don't already have an editor of choice, I'll recommend **VS Code** as it is the most widely used code editor at present.
 
-There is not a lot you need to know to get you up and running, and start solving problems.
+There are a lot of tutorials which cover 
