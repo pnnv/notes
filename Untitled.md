@@ -16,4 +16,4 @@ It's pretty straightforward setting a environment for C++, buttload of tutorials
 #### Basics of Programming
 Keep in mind that I'll be assuming that you are using C++ as your language of choice, if that's not the case you can still keep up as the instructions are pretty much universal.
 
-Again, there are many ways through which you can learn basics of C++, 
+Again, there are many ways through which you can learn basics of C++, [learncpp.com](https://www.learncpp.com) is an awesome resource, kind of like a wiki which contains everything from absolute basics to advanced stuff about C++. Though, I won't sugge
