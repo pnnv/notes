@@ -11,4 +11,4 @@ Keep in mind that I'll be assuming that you are using C++ as your language of ch
 
 ##### Programming Environment
 Firstly you'll need a text editor. If you don't already have an editor of choice, I'll recommend **VS Code** as it is the most widely used code editor at present.
-It's pretty straightforward setting up the environment for C++, 
+It's pretty straightforward setting a environment for C++, buttload of tutorials exist on YouTube, you can follow any of those but make sure that they are 
