@@ -11,8 +11,13 @@
             "id": "721a0e1af71dfa89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -66,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -83,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled.md"
+              }
             }
           },
           {
@@ -166,9 +174,10 @@
   },
   "active": "721a0e1af71dfa89",
   "lastOpenFiles": [
-    "temp.md",
-    "~.md",
     "hacc2.md",
+    "~.md",
+    "Untitled.md",
+    "temp.md",
     "Cp.md",
     "OSS/Steps.md",
     "OSS",
@@ -193,7 +202,6 @@
     "ctf/Misc.md",
     "ctf/Modern Crypto.md",
     "Linux Fundamentals/File Recovery.md",
-    "Linux Fundamentals/Hardware.md",
     "logseq/custom.css",
     "pages",
     "journals",

@@ -1,267 +1,59 @@
-<!DOCTYPE html>
+#### Competitive Programming
+I'm guessing you are new to this, if you are wondering what is Competitive Programming, it's a way to test your coding skills along with your problem-solving by solving diverse problems and coming up with efficient solutions.
 
-<html lang="en">
+##### Prerequisites: 
+Basics of a programming language, preferably C++ but any other mainstream language will do.
 
-<head>
+If you are new to all this, read through the next section :3
+##### Programming Environment
+Firstly you'll need a text editor. If you don't already have an editor of choice, I'll recommend **VS Code** as it is the most widely used code editor at present.
+It's pretty straightforward setting a environment for C++, buttload of tutorials exist on YouTube, you can follow any of those but make sure that it's fairly recent.
 
-<meta charset="UTF-8">
+#### Basics of Programming
+Keep in mind that I'll be assuming that you are using C++ as your language of choice, if that's not the case you can still keep up as the instructions are pretty much universal.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Again, there are many ways to learn the basics of C++. [LearnCpp.com](https://www.learncpp.com) is an excellent resource, similar to a wiki, that covers everything from absolute basics to advanced stuff about C++. However, I would not recommend using it as your sole guide.
 
-<style>
+Choose any tutorial or source you like and learn about the following:
 
-body {
+- Basic Syntax
+- Input/Output
+- Arrays
+- Loops
+- Conditionals
+- Functions
 
-background-color: #0D1117;
+This is bare minimum you need to be able to write a working code in C++, you should even be able to solve most of the basic problems using these.
 
-color: #d8dee9;
+There's something called **Standard Template Library (STL)** in C++ which is unarguably the most important you need to know, The STL provides efficient, well-implemented data structures and algorithms.
 
-font-family: 'JetBrains Mono', monospace;
+These are the containers that I would recommend you learn:
+- vector
+- string
+- map
+- set
 
-border: 10px solid #2e3440; /* Add a border around the content */
+There are more containers which you can learn about but the ones listed above are the ones which are used the most.
 
-padding: 20px; /* Add padding for spacing */
+> P.S. If you are new to programming, I would recommend taking [CS50](https://www.harvardonline.harvard.edu/course/cs50-introduction-computer-science) (short for Computer Science 50), which is an introductory computer science course offered by Harvard University. Try it out for a bird's-eye view of a wide range of topics and to learn the fundamentals.
 
-}
+*On to the next part :3*
 
-  
 
-h2 {
+#### CodeChef
+There are many platforms for Competitive Programming but we will be getting started with [CodeChef](https://www.codechef.com/) which is the, in my opinion, the most beginner friendly of them all.
 
-color: #7DCFFF;
+##### Getting yourself registered
+1. Head over to [CodeChef](https://www.codechef.com/) and make an account.
+2. After logging in click on your avatar (in the top right) and go to 'Edit Profile'.
+3. In the 'Professional' section, specify that you are a student.
+4. Fill up the 'Where do you study?' section.
 
-}
+I strongly suggest visiting the [Learn](https://www.codechef.com/learn/course/cpp) section on CodeChef and going through the C++ beginner course to gain a firsthand experience in problem solving.
 
-  
+Make sure that you make yourself comfortable with the format of problems and their solutions.
 
-h3 {
+> In the rare event that you cannot figure something out even after searching online, you can reach out to Prabhat or me(pranav).
 
-color: #7AA2F7;
 
-}
-
-  
-
-a {
-
-color: #f7768e;
-
-text-decoration: none;
-
-}
-
-  
-
-a:hover {
-
-text-decoration: underline;
-
-}
-
-  
-
-strong {
-
-color: #EDBF68;
-
-}
-
-  
-
-ul, ol {
-
-padding-left: 20px;
-
-}
-
-  
-
-blockquote {
-
-border-left: 4px solid #4c566a;
-
-padding-left: 10px;
-
-margin: 10px 0;
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<h2>Competitive Programming</h2>
-
-<p>I'm guessing you are new to this. If you are wondering what Competitive
-
-Programming is, it's a way to test your coding skills along with your
-
-problem-solving by solving diverse problems and coming up with efficient
-
-solutions.</p>
-
-  
-
-<h3>Prerequisites:</h3>
-
-<p>Basics of a programming language, preferably <strong>C++</strong> but any
-
-other mainstream language will do.</p>
-
-  
-
-<p>If you are new to all this, read through the next section :3</p>
-
-  
-
-<h3>Programming Environment</h3>
-
-<p>Firstly, you'll need a text editor. If you don't already have an editor
-
-of choice, I'll recommend <strong>VS Code</strong> as it is the most
-
-widely used code editor at present.</p>
-
-<p>It's pretty straightforward setting an environment for C++, a lot of
-
-tutorials exist on YouTube; you can follow any of those, but make sure
-
-that it's fairly recent.</p>
-
-  
-
-<h2>Basics of Programming</h2>
-
-<p>Keep in mind that I'll be assuming that you are using C++ as your
-
-language of choice, if that's not the case, you can still keep up as the
-
-instructions are pretty much universal.</p>
-
-<p>Again, there are many ways to learn the basics of C++. <a
-
-href="https://www.learncpp.com">LearnCpp.com</a> is an excellent
-
-resource, similar to a wiki, that covers everything from absolute basics
-
-to advanced stuff about C++. However, I would not recommend using it as
-
-your sole guide.</p>
-
-<p>Choose any tutorial or source you like and learn about the following:</p>
-
-<ul>
-
-<li>Basic Syntax</li>
-
-<li>Input/Output</li>
-
-<li>Arrays</li>
-
-<li>Loops</li>
-
-<li>Conditionals</li>
-
-<li>Functions</li>
-
-</ul>
-
-<p>This is the bare minimum you need to be able to write a working code in
-
-C++, and you should even be able to solve most of the basic problems using
-
-these.</p>
-
-<p>There's something called <strong>Standard Template Library (STL)</strong>
-
-in C++, which is unarguably the most important thing you need to know. The
-
-STL provides efficient, well-implemented data structures and algorithms.</p>
-
-<p>These are the containers that I would recommend you learn:</p>
-
-<ul>
-
-<li>vector</li>
-
-<li>string</li>
-
-<li>map</li>
-
-<li>set</li>
-
-</ul>
-
-<blockquote>
-
-<p>P.S. If you are new to programming, I would recommend taking <a
-
-href="https://www.harvardonline.harvard.edu/course/cs50-introduction-computer-science">CS50</a>
-
-(short for Computer Science 50), which is an introductory computer
-
-science course offered by Harvard University. Try it out for a bird's-eye
-
-view of a wide range of topics and to learn the fundamentals.</p>
-
-</blockquote>
-
-  
-
-<p>On to the next part :3</p>
-
-  
-
-<h2>CodeChef</h2>
-
-<p>There are many platforms for Competitive Programming, but we will be
-
-getting started with <a href="https://www.codechef.com/">CodeChef</a>,
-
-which is, in my opinion, the most beginner-friendly of them all.</p>
-
-  
-
-<h3>Getting yourself registered</h3>
-
-<ol>
-
-<li>Head over to <a href="https://www.codechef.com/">CodeChef</a> and make
-
-an account.</li>
-
-<li>After logging in, click on your avatar (in the top right) and go to
-
-'Edit Profile'.</li>
-
-<li>In the 'Professional' section, specify that you are a student.</li>
-
-<li>Fill up the 'Where do you study?' section.</li>
-
-</ol>
-
-  
-
-<p>I strongly suggest visiting the <a
-
-href="https://www.codechef.com/learn/course/cpp">Learn</a> section on
-
-CodeChef and going through the C++ beginner course to gain firsthand
-
-experience in problem-solving.</p>
-
-  
-
-<blockquote>
-
-<p>In the rare event that you cannot figure something out even after
-
-searching online, you can reach out to Prabhat or me (Pranav).</p>
-
-</blockquote>
-
-</body>
-
-</html>
+~~
