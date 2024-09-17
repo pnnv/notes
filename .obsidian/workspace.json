@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Linux Unhatched/Viewing Processes.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Linux Unhatched/Viewing Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Linux Unhatched/Viewing Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Linux Unhatched/Viewing Processes.md"
               }
             }
           },
@@ -174,24 +174,26 @@
   },
   "active": "721a0e1af71dfa89",
   "lastOpenFiles": [
-    "hacc2.md",
+    "Networking/Basics Of Networking.md",
+    "Networking/curl.md",
+    "Networking/THM Networking.md",
+    "Networking/Wireshark.md",
+    "Linux Fundamentals/Resizing Disk.md",
+    "Linux Unhatched/Vim.md",
     "~.md",
+    "Networking/Terminology and Protocols.md",
+    "Networking/LAN (Basics).md",
     "Untitled.md",
+    "hacc2.md",
     "temp.md",
     "Cp.md",
     "OSS/Steps.md",
     "OSS",
-    "Networking/Terminology and Protocols.md",
     "ctf/Encryption and Cryptography.md",
-    "Networking/Basics Of Networking.md",
-    "Networking/Wireshark.md",
     "Networking/Scripting and Tshark.md",
-    "Networking/curl.md",
     "Networking/Misc Commands.md",
-    "Networking/THM Networking.md",
     "Networking/Routing Tables.md",
     "Networking/Getting Started.md",
-    "Networking/LAN (Basics).md",
     "capout.pcap",
     "Networking/RFC.md",
     "ctf/File Carving.md",
@@ -200,8 +202,6 @@
     "ctf/Getting Started.md",
     "ctf/Math.md",
     "ctf/Misc.md",
-    "ctf/Modern Crypto.md",
-    "Linux Fundamentals/File Recovery.md",
     "logseq/custom.css",
     "pages",
     "journals",
