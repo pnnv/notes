@@ -8,7 +8,7 @@ sqrt decomp
 4. mount rushmore
 5. lakmé
 6. biju patnaik
-7. center fresh
+7. center fruit
 8. love / score of 0
 9. x: redbull (0.5) y: redbull stratos(0.5)
 10. breakdancing / breaking
