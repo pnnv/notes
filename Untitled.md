@@ -1,7 +1,7 @@
 ~~
 
 #### todo~
-- [ ] os fundamentals
+- [ ] **os fundamentals**
 	- [ ] processes / threads
 	- [ ] philosopher's problem
 	- [ ] critical section
@@ -22,14 +22,14 @@
 	- [ ] virtual functions
 	- [ ] friend functions
 	- [ ] static keyword
-- [ ] SQL
+- [ ] **SQL**
 	- [ ] queries
 	- [ ] joins
 - [ ] System Design
 	- [ ] vertical and horizontal scaling
 	- [ ] how to synchronise ticket booking across multiple locations
 - [ ] DDos attack?
-- [ ] puzzles
+- [ ] **puzzles**
 	- [ ] three jug puzzle
 	- [ ] hourglass problem
 	- [ ] gold bar and bags related something
@@ -39,9 +39,10 @@
 - [ ] reverse a string using recursion only
 - [ ] internal implementations of hashmap and collisions in hashmaps
 - [ ] irl examples of data structures
-- [ ] linked list
+- [ ] **linked list**
 	- [ ] remove loop from a linked list
 	- [ ] nth node form the end
+##### misc / random problems
 - [ ] kadenes / max sum subarray
 - [ ] heap sort
 - [ ] remove duplicates from a sorted array in place 
