@@ -4,7 +4,7 @@
 - [ ] **os fundamentals**
 	- [x] processes / threads
 	- [x] philosopher's problem
-	- [ ] critical section
+	- [x] critical section
 	- [ ] deadlocks and ways to handle them
 	- [ ] semaphores (in detail)
 	- [ ] multi threading
