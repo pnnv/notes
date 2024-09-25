@@ -2,8 +2,8 @@
 
 #### todo~
 - [ ] **os fundamentals**
-	- [ ] processes / threads
-	- [ ] philosopher's problem
+	- [x] processes / threads
+	- [x] philosopher's problem
 	- [ ] critical section
 	- [ ] deadlocks and ways to handle them
 	- [ ] semaphores (in detail)
