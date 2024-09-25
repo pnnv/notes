@@ -14,6 +14,7 @@
 - [ ] microservices (definition only (?))
 - [ ] swapping two numbers (different ways)
 - [ ] diff b/w inf and undefined
+- [ ] scheduling algorithms
 - [ ] **OOPS**
 	- [ ] diff b/e struct and class
 	- [ ] abstract class and its use cases
@@ -21,6 +22,9 @@
 	- [ ] virtual functions
 	- [ ] friend functions
 	- [ ] static keyword
+- [ ] SQL
+	- [ ] queries
+	- [ ] joins
 - [ ] System Design
 	- [ ] vertical and horizontal scaling
 	- [ ] how to synchronise ticket booking across multiple locations
@@ -44,3 +48,4 @@
 - [ ] first non repeating char in a string
 - [ ] segragate 0, 1, 2 without using extraspace
 - [ ] sort a queue, without using extra space
+- [ ] there's a stream of numbers incoming and at any point, we need to determine the median of those numbers.
