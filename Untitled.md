@@ -11,9 +11,10 @@
 	- [ ] disc scheduling problem
 - [ ] time and space complexity
 - [ ] servers with RAM
+- [ ] microservices (definition only (?))
 - [ ] swapping two numbers (different ways)
 - [ ] diff b/w inf and undefined
-- [ ] OOPS
+- [ ] **OOPS**
 	- [ ] diff b/e struct and class
 	- [ ] abstract class and its use cases
 	- [ ] inheritance & its types
@@ -24,11 +25,14 @@
 	- [ ] vertical and horizontal scaling
 	- [ ] how to synchronise ticket booking across multiple locations
 - [ ] DDos attack?
-- [ ] riddles
+- [ ] puzzles
+	- [ ] three jug puzzle
 	- [ ] hourglass problem
+	- [ ] gold bar and bags related something
 - [ ] react, state management, redux (how is it different than inbuilt state management library)
 - [ ] avl trees
-- [ ] bst
+- [ ] bst (implementation from scratch, search, insert, remove)
+- [ ] reverse a string using recursion only
 - [ ] internal implementations of hashmap and collisions in hashmaps
 - [ ] irl examples of data structures
 - [ ] linked list
@@ -38,3 +42,5 @@
 - [ ] heap sort
 - [ ] remove duplicates from a sorted array in place 
 - [ ] first non repeating char in a string
+- [ ] segragate 0, 1, 2 without using extraspace
+- [ ] sort a queue, without using extra space
