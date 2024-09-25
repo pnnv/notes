@@ -8,6 +8,7 @@
 	- [ ] deadlocks and ways to handle them
 	- [ ] semaphores (in detail)
 	- [ ] multi threading
+	- [ ] disc scheduling problem
 - [ ] time and space complexity
 - [ ] servers with RAM
 - [ ] swapping two numbers (different ways)
@@ -15,12 +16,25 @@
 - [ ] OOPS
 	- [ ] diff b/e struct and class
 	- [ ] abstract class and its use cases
+	- [ ] inheritance & its types
+	- [ ] virtual functions
+	- [ ] friend functions
+	- [ ] static keyword
+- [ ] System Design
+	- [ ] vertical and horizontal scaling
+	- [ ] how to synchronise ticket booking across multiple locations
+- [ ] DDos attack?
+- [ ] riddles
+	- [ ] hourglass problem
 - [ ] react, state management, redux (how is it different than inbuilt state management library)
 - [ ] avl trees
 - [ ] bst
 - [ ] internal implementations of hashmap and collisions in hashmaps
 - [ ] irl examples of data structures
-- [ ] remove loop in linked list
-- [ ] kadenes / max sum subsrray
+- [ ] linked list
+	- [ ] remove loop from a linked list
+	- [ ] nth node form the end
+- [ ] kadenes / max sum subarray
 - [ ] heap sort
+- [ ] remove duplicates from a sorted array in place 
 - [ ] first non repeating char in a string
