@@ -197,7 +197,140 @@ Cisco Interview Experience Questions and Answers (Based on Rohit Kumar's Experie
         - C++ is a compiled language, while Python is an interpreted language.
         - C++ is generally faster for performance-critical applications, while Python is often easier to read and write
 
+Here are some of the questions mentioned in the document, along with their answers and code examples where applicable. Please note that the specific LeetCode links were not provided, so those questions and answers are not included.  
+  
+**CS Fundamentals, OOPS, DBMS, OS**
 
+- **What is OS?**
+    - An operating system (OS) is the software that manages computer hardware and software resources and provides common services for computer programs.
+- **Define multiprocessing and multiprogramming OS.**
+    - **Multiprocessing:** An OS capability that allows multiple processors to work on different tasks simultaneously within a single computer system.
+    - **Multiprogramming:** An OS capability that allows multiple programs to reside in memory and execute concurrently, sharing CPU time.
+- **What are threads?**
+    - Threads are the smallest units of execution within a process. Multiple threads can exist within a single process and share the process's resources, allowing for concurrent execution within a process.
+- **ACID Properties (DBMS):**
+    - **Atomicity:** A transaction is treated as a single, indivisible unit of work. It either completes entirely or has no effect.
+    - **Consistency:** A transaction brings the database from one valid state to another, maintaining data integrity constraints.
+    - **Isolation:** Concurrent transactions are executed as if they were running serially, preventing interference.
+    - **Durability:** Once a transaction is committed, its changes are permanent and survive system failures.
+- **Diamond Problem (OOPS):**
+    - The diamond problem occurs in multiple inheritance when a class inherits from two classes that have a common base class. This can lead to ambiguity about which inherited member to use. It can be resolved using virtual inheritance.
+- **What are pixels and grey values? (Digital Image Processing):**
+    - **Pixels:** The smallest unit of a digital image, representing a single point of color or intensity.
+    - **Grey values:** In grayscale images, each pixel has a grey value representing its intensity, typically ranging from 0 (black) to 255 (white).
+- **OSI Model (CN):**
+    - A conceptual framework that standardizes the communication functions of a telecommunication or computing system into seven distinct layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+- **5 types of protocols (CN):**
+    - Examples include HTTP, TCP, IP, FTP, and SMTP. There are many more protocols depending on the layer of the OSI model.
+- **Difference between TCP and UDP (CN):**
+    - **TCP (Transmission Control Protocol):** Connection-oriented, reliable, provides error checking and flow control, and ensures data delivery in the correct order. Used for applications requiring reliability, like web browsing and file transfer.
+    - **UDP (User Datagram Protocol):** Connectionless, unreliable, does not guarantee data delivery or order. Used for applications where speed is more important than reliability, like video streaming and online gaming.
+
+**DSA**
+
+- **Reverse Linked List:**
+    
+    ```python
+    class ListNode:
+        def __init__(self, val=0, next=None):
+            self.val = val
+            self.next = next
+    
+    def reverseList(head):
+        prev = None
+        curr = head
+        while curr:
+            next_node = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next_node
+        return prev
+    ```
+    
+- **Palindrome Check (String):**
+    
+    ```python
+    def isPalindrome(s):
+        s = ''.join(c.lower() for c in s if c.isalnum())
+        return s == s[::-1]
+    ```
+    
+- **Check count of 1s in number (Bit Manipulation):**
+    
+    ```python
+    def countSetBits(n):
+        count = 0
+        while n:
+            count += n & 1
+            n >>= 1
+        return count
+    ```
+    
+
+**CN (Practical)**
+
+- **Protocols behind Cisco Webex:**
+    - Likely a combination of TCP, UDP, HTTP, HTTPS, RTP (Real-Time Transport Protocol), and various signaling protocols for establishing and managing audio/video sessions.
+- **Gaming website with low bandwidth:**
+    - Minimize assets (images, videos), use efficient compression algorithms, prioritize game data over other content, consider using cloud gaming solutions to offload processing to servers.
+- **Live example of OSI Model:**
+    - Sending an email:
+        - Application layer: Email client composes the message.
+        - Presentation layer: Data is formatted (e.g., HTML or plain text).
+        - Session layer: Establishes a session between sender and receiver.
+        - Transport layer: TCP ensures reliable delivery.
+        - Network layer: IP routes the
+
+The interview experience shared in the document does not specify the exact questions asked during the technical, managerial, and HR rounds. It mentions the topics and types of questions but doesn't provide the specific questions themselves.  
+  
+However, based on the information provided, here's a breakdown of the types of questions and potential examples:  
+  
+**Technical Round**
+
+- **OOP Concepts:**
+    - Explain the principles of inheritance, polymorphism, and encapsulation with examples.
+    - What is the difference between an abstract class and an interface?
+    - How do you achieve runtime polymorphism in Java/Python/C++?
+- **Coding Questions:**
+    - Implement a sorting algorithm like quicksort or mergesort.
+    - Write code to find the maximum subarray sum in an array.
+    - Solve problems related to arrays, strings, linked lists, trees, and graphs.
+- **Project-Related Questions:**
+    - Explain the architecture and technologies used in your project.
+    - What challenges did you face and how did you overcome them?
+    - Discuss your contributions and the impact of your work.
+- **CS Fundamentals:**
+    - Explain the OSI model and its layers.
+    - What are the different types of database normalization?
+    - How does virtual memory work?
+    - Explain deadlock and its prevention techniques.
+
+**Managerial Round**
+
+- **Pattern Printing:**
+    - Write code to print a pyramid or diamond pattern.
+    - Print a Fibonacci series or Pascal's triangle.
+- **Scenario-Based Questions:**
+    - How do you handle tight deadlines and prioritize tasks?
+    - Describe a situation where you faced conflict with a team member and how you resolved it.
+    - How do you deal with stress and pressure?
+- **Company-Related Questions:**
+    - What do you know about our company and its values?
+    - Why do you want to work for us?
+    - What are your long-term career goals?
+
+**HR Round**
+
+- **Background and Skills:**
+    - Tell me about your education and work experience.
+    - What are your strengths and weaknesses?
+    - What skills and qualities make you a good fit for this role?
+- **Company Knowledge:**
+    - What do you know about our company culture and values?
+    - Have you researched our recent projects or initiatives?
+    - What are your expectations from this internship/job?
+
+**Remember:** These are just examples, and the actual questions may vary. It's crucial to have a strong understanding of the core concepts, practice coding problems, and research the company thoroughly to prepare for a Cisco interview.
 #### todo~
 - [ ] **os fundamentals**
 	- [x] processes / threads
