@@ -5,20 +5,20 @@
 	- [x] processes / threads
 	- [x] philosopher's problem
 	- [x] critical section
-	- [ ] deadlocks and ways to handle them
-	- [ ] semaphores (in detail)
-	- [ ] multi threading
+	- [x] deadlocks and ways to handle them
+	- [x] semaphores (in detail)
+	- [x] multi threading
 	- [ ] disc scheduling problem
-- [ ] time and space complexity
+- [x] time and space complexity
 - [ ] servers with RAM
 - [ ] microservices (definition only (?))
 - [ ] swapping two numbers (different ways)
 - [ ] diff b/w inf and undefined
-- [ ] scheduling algorithms
+- [x] scheduling algorithms
 - [ ] **OOPS**
-	- [ ] diff b/e struct and class
+	- [x] diff b/e struct and class
 	- [ ] abstract class and its use cases
-	- [ ] inheritance & its types
+	- [x] inheritance & its types
 	- [ ] virtual functions
 	- [ ] friend functions
 	- [ ] static keyword
