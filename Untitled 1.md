@@ -11,23 +11,41 @@
 class Subject {
 public:
 	string name;
-	int id;
-	int marks;
+	int id; // index
 }
 
 class Student {
 public:
 	string name;
 	string rollNumber;
-	vector <int> marks;
+	int *id;
+	
+	vector <int> Marks;
+
+	Student() {} // default constructor
+	
+	Student(string n, string roll, int numOfSubjects) {
+		name = n;
+		rollNumber = roll;
+		Marks.resize(numOfSubjects);
+	}
+
+	
 
 	void setMarks(Subject sub, int marks) {
-		
+		Marks[sub.id] = marks;
 	}
 
 	double average() {
-		
+		double m = 0;
+		for(auto i: Marks) {
+			m += i;
+		}
+		m /= double(Marks.size());
+		return m;
 	}
-}
+};
+
+
 
 ```
