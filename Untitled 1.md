@@ -30,7 +30,11 @@ public:
 		Marks.resize(numOfSubjects);
 	}
 
-	
+	Student(Student &s2) {
+		s2.name = name;
+		s2.rollNumber = rollNumber;
+		s2.id = new int();
+	}
 
 	void setMarks(Subject sub, int marks) {
 		Marks[sub.id] = marks;
