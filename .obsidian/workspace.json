@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "ctf/File Carving.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "ctf/File Carving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "ctf/File Carving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "ctf/File Carving.md"
               }
             }
           },
@@ -174,9 +173,9 @@
   },
   "active": "07343c3e58ce81e9",
   "lastOpenFiles": [
+    "Untitled.md",
     "Untitled 1.md",
     "Untitled.table",
-    "Untitled.md",
     "Linux Unhatched/Viewing Processes.md",
     "Networking/Basics Of Networking.md",
     "Networking/curl.md",
