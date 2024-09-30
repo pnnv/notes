@@ -1,3 +1,8 @@
+##### Kosaraju’s Algorithm
+[sauce](https://www.topcoder.com/thrive/articles/kosarajus-algorithm-for-strongly-connected-components)
+
+
+
 ###### DFS Tree + Bridges
 [sauce](https://codeforces.com/blog/entry/68138)
 This is a tutorial/exploration of problems that can be solved using the "DFS tree" of a graph.
