@@ -17,3 +17,5 @@ Consider an undirected connected graph G. Let's run a depth-first traversal of t
 ```
 
 Let's look at the edges that were marked in line 5. They form a spanning tree of G, rooted at the vertex 1. We'll call these edges _span-edges_; all other edges are called _back-edges_.
+
+**Observation** A span-edge uv is a bridge if and only if there exists no back-edge that connects a descendant of uv with an ancestor of uv. In other words, a span-edge uv is a bridge if and only if there is no back-edge that "passes over" uv.
