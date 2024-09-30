@@ -8,12 +8,12 @@ Sometimes there are questionable greedy algorithms whose correctness becomes obv
 Consider an undirected connected graph G. Let's run a depth-first traversal of the graph. It can be implemented by a recursive function, perhaps something like this:
 
 ```
- function visit(u):
-     mark u as visited
-     for each vertex v among the neighbours of u:
-         if v is not visited:
-             mark the edge uv
-             call visit(v)
+1 function visit(u):
+2     mark u as visited
+3     for each vertex v among the neighbours of u:
+4         if v is not visited:
+5             mark the edge uv
+6             call visit(v)
 ```
 
-The edges marked while traversal form a spanning tree and can be called span edges
+Let's look at the edges that were marked in line 5. They form a spanning tree of G, rooted at the vertex 1. We'll call these edges _span-edges_; all other edges are called _back-edges_.
