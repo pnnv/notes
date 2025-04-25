@@ -15,9 +15,20 @@
               "state": {
                 "file": "hacc2.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
-              }
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "hacc2"
             }
           },
           {
@@ -26,15 +37,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cp/Graphs.md",
+                "file": "Untitled.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
-              }
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "534ec40b3dfe4925",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/JS Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JS Fundamentals"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,8 +99,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -69,7 +118,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -77,15 +128,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 225.5
   },
   "right": {
     "id": "4407c66c543aa6aa",
@@ -101,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cp/Graphs.md",
+                "file": "Linux Unhatched/Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +161,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Regular Expressions"
             }
           },
           {
@@ -118,10 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cp/Graphs.md",
+                "file": "Linux Unhatched/Regular Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Regular Expressions"
             }
           },
           {
@@ -131,8 +187,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -141,8 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cp/Graphs.md"
-              }
+                "file": "Linux Unhatched/Regular Expressions.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Regular Expressions"
             }
           },
           {
@@ -150,7 +215,9 @@
             "type": "leaf",
             "state": {
               "type": "todo",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -162,11 +229,23 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "eddf26b713a96ea8",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -186,14 +265,21 @@
       "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "49247dba332e14a8",
+  "active": "534ec40b3dfe4925",
   "lastOpenFiles": [
-    "Pasted image 20241001003745.png",
-    "cp/Graphs.md",
+    "Untitled.md",
+    "JS/JS Fundamentals.md",
+    "JS",
+    "Linux Unhatched/Regular Expressions.md",
+    "Linux Unhatched/Updating Passwords.md",
+    "Linux Unhatched/shutdown.md",
+    "Linux Unhatched/Redirection.md",
+    "Linux Unhatched/Network Configuration.md",
     "hacc2.md",
+    "cp/Graphs.md",
+    "Pasted image 20241001003745.png",
     "cp",
     "~.md",
-    "Untitled.md",
     "ctf/File Carving.md",
     "Untitled.table",
     "Linux Unhatched/Viewing Processes.md",
@@ -211,19 +297,12 @@
     "OSS",
     "ctf/Encryption and Cryptography.md",
     "Networking/Scripting and Tshark.md",
-    "Networking/Misc Commands.md",
-    "Networking/Routing Tables.md",
-    "Networking/Getting Started.md",
     "capout.pcap",
-    "Networking/RFC.md",
-    "ctf/Corrupt Transmission 50.md",
-    "ctf/File Metadata.md",
     "logseq/custom.css",
     "pages",
     "journals",
     "logseq/config.edn",
     "logseq",
-    "textgenerator/prompts/default",
     "Pasted image 20230605050803.png",
     "netsec/Untitled.canvas",
     "netsec/ctf/Untitled.canvas",

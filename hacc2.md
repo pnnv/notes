@@ -57,3 +57,27 @@ Make sure that you make yourself comfortable with the format of problems and the
 
 
 ~~
+
+# heading1
+## heading2
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+void snu() {
+	int n, k; cin >> n >> k;
+	vector <int> v(n);
+	
+}
+
+int32_t main() {
+	ios::sync_with_stdio(false); cin.tie(0);
+	int t; cin >> t;
+	while(t--) snu();
+}
+```
+
+^ code block and shii
