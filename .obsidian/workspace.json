@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e96d37a89ef4b02a",
+        "id": "543c4ca9bcfc7686",
         "type": "tabs",
         "children": [
           {
-            "id": "07343c3e58ce81e9",
+            "id": "658aef8eb08af537",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hacc2.md",
+                "file": "amazon.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,71 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "hacc2"
-            }
-          },
-          {
-            "id": "49247dba332e14a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "534ec40b3dfe4925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/JS Fundamentals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JS Fundamentals"
-            }
-          },
-          {
-            "id": "cee3e7f438807cde",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "title": "amazon"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,8 +216,10 @@
       "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "cee3e7f438807cde",
+  "active": "658aef8eb08af537",
   "lastOpenFiles": [
+    "amazon.md",
+    "hacc2.md",
     "Untitled.md",
     "JS/JS Fundamentals.md",
     "JS",
@@ -287,7 +228,6 @@
     "Linux Unhatched/shutdown.md",
     "Linux Unhatched/Redirection.md",
     "Linux Unhatched/Network Configuration.md",
-    "hacc2.md",
     "cp/Graphs.md",
     "Pasted image 20241001003745.png",
     "cp",
