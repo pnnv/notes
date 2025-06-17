@@ -78,9 +78,21 @@
               "icon": "lucide-file",
               "title": "JS Fundamentals"
             }
+          },
+          {
+            "id": "cee3e7f438807cde",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,7 +277,7 @@
       "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "534ec40b3dfe4925",
+  "active": "cee3e7f438807cde",
   "lastOpenFiles": [
     "Untitled.md",
     "JS/JS Fundamentals.md",
