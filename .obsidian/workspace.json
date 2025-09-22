@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Untitled 1"
             }
+          },
+          {
+            "id": "041b877e22cc11fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sihmomint.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "sihmomint"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -266,10 +290,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1c0482c017116f1d",
+  "active": "041b877e22cc11fb",
   "lastOpenFiles": [
-    "amazon.md",
+    "sihmomint.md",
     "Untitled 2.md",
+    "amazon.md",
     "Untitled 1.md",
     "netsec/Attachments/Pasted image 20250617131832.png",
     "netsec/Attachments/Pasted image 20250617131736.png",
@@ -302,7 +327,6 @@
     "Networking/LAN (Basics).md",
     "temp.md",
     "Cp.md",
-    "OSS/Steps.md",
     "OSS",
     "capout.pcap",
     "logseq/custom.css",
