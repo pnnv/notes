@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Abstract.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Abstract"
             }
           },
           {
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -290,12 +290,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "041b877e22cc11fb",
+  "active": "6e309eb6b38a97ef",
   "lastOpenFiles": [
     "sihmomint.md",
     "Untitled 2.md",
     "amazon.md",
-    "Untitled 1.md",
+    "Abstract.md",
     "netsec/Attachments/Pasted image 20250617131832.png",
     "netsec/Attachments/Pasted image 20250617131736.png",
     "netsec/Attachments/Pasted image 20250617131723.png",
